@@ -1,0 +1,197 @@
+.service-one__cap-price{
+    display: flex;
+    width: 520px;
+}
+
+
+table.editing-discs {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+   
+  }
+  table.editing-discs th {
+      text-align: left;
+      width: 800px;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding: 12px 17px;
+    border: 1px solid black;
+  }
+  table.editing-discs td {
+    color: #000;
+    
+    border-bottom: 1px solid #000;
+    border-right:1px solid #000;
+   
+  }
+  table.editing-discs tr:last-child td {
+    border-bottom: none;
+  }
+ 
+  table.editing-discs tr:hover td {
+    
+  }
+
+  td.cost{
+    padding: 12px 17px;
+  }
+
+
+
+
+
+
+///////////////////
+table.tire-fitting {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+   
+  }
+  table.tire-fitting th {
+      
+    width: 800px;
+  color: #000;
+  border-bottom: 1px solid #000;
+  border: 1px solid black;
+}
+ 
+  table.tire-fitting td {
+    color: #000;
+    
+    border-bottom: 1px solid #000;
+    border-right:1px solid #000;
+    
+  }
+  table.tire-fitting tr:last-child td {
+    border-bottom: none;
+  }
+ 
+  table.moto-wheels__price-top tr:hover td {
+    
+    background: #D41F25;
+  }
+
+  .fit__left {
+      padding: 12px 17px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+
+
+  //////////////////
+  table.additive-services {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+   
+  }
+
+  table.additive-services tr:hover td {
+    
+   
+  }
+  table.additive-services th {
+      text-align: left;
+      width: 800px;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding: 12px 17px;
+    border: 1px solid black;
+  }
+  table.additive-services td {
+    color: #000;
+    
+    border-bottom: 1px solid #000;
+    border-right:1px solid #000;
+    padding: 7px 17px;
+  }
+  table.additive-services tr:last-child td {
+    border-bottom: none;
+  }
+ 
+  table.additive-services tr:hover td {
+    
+    
+  }
+
+  table.additive-services td:nth-of-type(1) {
+	width:50%;
+}
+
+
+
+.td-add__position-price{
+    padding: 7px 17px;
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    height: 30px;
+}
+
+h3.bold-add{
+    font-size: 18px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.add-price{
+    font-size: 18px;
+}
+
+table.editing-discs td:hover {
+  
+  background: #D41F25;
+}
+
+table.editing-discs td.cost:hover{
+  background: initial;
+  
+}
+
+
+table.tire-fitting td:hover {
+  
+  background: #D41F25;
+}
+
+
+table.tire-fitting td.fit__left:hover {
+  
+  background: initial;
+}
+
+
+table.additive-services td:hover {
+  
+  background: #D41F25;
+}
+
+
+.price-editing__table{
+  
+    height: 220px;
+    display: flex;
+    align-items: center;
+
+}
+
+.price-fitting__table{
+  height: 700px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,33 @@
+@media screen and (max-width: 1200px){ //desctop
+    .container{
+        width: 970px;
+    }
+
+  
+    
+}
+
+
+
+@media screen and (max-width: 992px){ //laptop
+    .container{
+        width: 750px;
+    }
+    
+  
+    
+}
+
+@media screen and (max-width: 768px){ //tablets
+    .container{
+        width: 480px;
+    }
+    
+}
+
+@media screen and (max-width: 480px){ //phones
+    .container{
+        width: 95%;
+    }
+    
+}   

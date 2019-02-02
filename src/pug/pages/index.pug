@@ -12,215 +12,338 @@ html(lang='en')
     block title
        
   body
-      .preloader
-        .cssload-container
-          .cssload-cube
-            .cssload-half1
-              .cssload-side.cssload-s1
-              .cssload-side.cssload-s2
-              .cssload-side.cssload-s5
-            .cssload-half2
-              .cssload-side.cssload-s3
-              .cssload-side.cssload-s4
-              .cssload-side.cssload-s6
-
+      
       .wrapper
-      
-          include ../sections/header
-                  
-              
-              
-
-          content
-            .content-piscture
-              .container
-                  .logo-position
-                    .logo
-              .main-content
-                .container
-                  .main-content__all-parts
-                    .main-content__parts
-                      .main-content__top
-                        .main-content__top-left
-                          .main__haircut__block
-                            h1.main__haircut Стрижка у нас это выгодно!
-                          .main__data-block
-                            p.main__man-statics Мужская стрижка требует точного подхода.Обратимся к статистике:
-                            .main__false-position
-                              p.main__data-false *-приведенные данные ложь
-                        
-                        .main-content__top-middle
-                          ul.main-content__top-middle
-                            li.main-content__top-position
-                              .main-cost
-                                h1.main__number 1 500 *
-                                p.main__text  рублей вложений
-
-                            li.main-content__top-position
-                              .main-counthair
-                                h1.main__number 90 000
-                                p.main__text Постриженнных волос
-                        ul.main-content__top-right
-                          li.main-content__top-position 
-                            .main-time
-                              h1.main__number 7 200
-                              p.main__text секунд времени мастера
-                          li.main-content__top-position
-                            .main-likes
-                              h1.main__number 500 000 *
-                              p.main__text лайков и комплиментов
-                      ul.main-content__bottom
-                        li.main-content__bottom-left
-                          .main-logo__fast
-                            .fast-pict
-                          .logo-fast__title
-                            h1.main-title__logo Быстро
-                          .main-text__description-logo
-                            p.main-description__logo Мы делаем свою работу быстро!Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки
-
-                        li.main-content__bottom-middle
-                          .main-logo__cool
-                            .cool-pict
-                          .logo-cool__title  
-                            h1.main-title__logo Круто
-                          .main-text__description-logo 
-                            p.main-description__logo Забудьте,как вы стригл.Мы сделаем из вас звезду футбол.Во всяком случае внешне.
-
-                        li.main-content__bottom-right
-                          .main-logo__expensive
-                            .expensive-pict
-                          .logo-expensive__title
-                            h1.main-title__logo Дорого
-                          .main-text__description-logo
-                            p.main-description__logo Наши мастера - профессионалы своего дела и не могут сто.К тому же,разве цена не даёт определённый статус?
-                            
-          section-news
-            .news-content__top 
-                .news-content__top-left
-                .news-content__top-right
-
+        header 
+          .container
+            .header-information__contain
+              .header-information
+                .header-left
+                  .city
+                    .position-pict
+                      a(href="").link-header__logo
+                        img.city-logo(src="static/img/header-first.png", alt="")
+                    p.header-text г. Челябинск, ул. Краснопольский проспект 1/2
+                  .timetable
+                    .position-pict
+                      a(href="").link-header__logo
+                        img.time-logo(src="static/img/header-second.png", alt="")
+                    p.header-text График работы: с 9:00 до 20:00
+                .header-right
+                  .call
+                    .position-pict
+                      a(href="").link-header__logo
+                        img.call-logo(src="static/img/header-third.png", alt="")
+                    p.mobile +7 (922) 744-20-10 
+                    .order-call
+                      a.call-phone(href="") Заказать звонок
+              .position-wheel__header
+                  a.wheel(href="")
+                    img.right-wheels(src="static/img/rectangle-wheel.png", alt="")
+        section-rectangle
+          .container
+            .rec-content
+              .position-wheel
+                a.wheel(href="")
+                  img.right-wheels(src="static/img/rectangle-wheel.png", alt="")
+              ul.menu
+                li.service
+                  a.header-menu(href="") Наши услуги
+                  .position-shooter__down
+                    a(href="").down-shooter__link-header
+                      img.down-shooter(src="static/img/rectangle-shooter.png", alt="")
+                li.works
+                 a.header-menu(href="") Наши работы
+                li.about-company
+                 a.header-menu(href="") О компании
+                li.price-list
+                 a.header-menu(href="") Прайс-лист
+                li.actions-header
+                 a.header-menu(href="") Акции
+                li.partners
+                 a.header-menu(href="") Партнеры
+                li.feedback
+                 a.header-menu(href="") Отзывы
+                li.contacts
+                 a.header-menu(href="") Контакты
+              .btn-order 
+                button.activate
+                  a.order-serv(href="") ЗАКАЗАТЬ УСЛУГУ
+        section-actions
+          .section-actions__background
+            
+            .actions-buttons
+              .actions-left__shooter
+                a(href="").left-shooter__link
+                  span
+              .actions-right__shooter
+                a(href="").right-shooter__link
+                  span
             .container
+                .actions-info
+                  .actions-info__title
+                    .slogan
+                      h1.actions Акция! Зима не за горами!
+                    .sales
+                      h2.tire-shop Шиномонтаж четырех колес любого радиуса в нашем автосервисе «Right Wheels» со скидкой в 25%
+                    .actions-button__about-sale
+                      button.actions__detail-sale
+                        a(href="").further ПОДРОБНЕЙ О АКЦИИ
+                  .actions-button__down
+                    a(href="").dwn-link
+                      img.actions-down__shooter(src="static/img/actions-down-shooter.png", alt="")
+                      
+                      
+                  .actions-triangle
+        section-services
+          .container
+              .zero-one__container
+                .service-zero__one
+                  .service-zero__one-cap
+                    h3.zero-one__text 0
+                    h3.zero-one__text-mid 1
+                    .service-text
+                      h3.zero-one__service НАШИ УСЛУГИ
+                .service-zero__one-wheels
+                  ul.wheels
+                    li.first-wheel
+                      a.st-link(href="")
+                        img.st(src="static/img/service-wheel-1.png", alt="")
+                      a.style(href="") Покраска дисков
+                    li.second-wheel
+                      a.st-link(href="")
+                        img.st(src="static/img/service-wheel-2.png", alt="") 
+                      a.style(href="") Правка и ремонт дисков
+                  ul.wheels
+                    li.third-wheel
+                      a.st-link(href="")
+                        img.st(src="static/img/service-wheel-3.png", alt="")
+                      a.style(href="") Шиномонтажные услуги
+                    li.fourth-wheel
+                      a.st-link(href="")
+                        img.st(src="static/img/service-wheel-4.png", alt="")
+                      a.style(href="") Дополнительные услуги
                 
-                .news-content__middle
-                  .news-content__middle-left
-                    .new-content__title-contain
-                      h1.news-content__title Новости и акции
-                  .news-content__middle-right
-                    .news-content__show-link 
-                      a.news-link__show(href='#') Показать все
-                ul.news-content__bottom
-                  li.news-content__bottom-left
-                      .news-content__left
-                        .news-calendar__section
-                          .news-content__calendar-one
-                            p.news-calendar__one-number 29
-                            p.news-calendar__month Сент
-                          .news-calendar-one__triangle
-                        p.main-text__black Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во врем.
-                  li.news-content__bottom-middle
-                      .news-content__center
-                        .news-calendar__section
-                          .news-content__calendar-two
-                            p.news-calendar__second-number 19
-                            p.news-calendar__month Сент
-                          .news-calendar-two__triangle
-                        p.main-text__black В нашей команде пополнение, Борис "Бритва" Стригунец, пополнил наши стройные ряды. Спешите записаться!
-                  li.news-content__bottom-right
-                      .news-content__right
-                        .news-calendar__section
-                          .news-content__calendar-three
-                            p.news-calendar__third-number 29
-                            p.news-calendar__month Сент
-                          .news-calendar-three__triangle
-                        p.main-text__black Все дорожает, а наши стрижки нет! Как так? Приходите, постригитесь и узнаете, в чем здесь подвох!
+              
+                  
+          .zero-two__container
+            .service-zero__two-left
+              img.repair(src="static/img/service-repairing.png", alt="")
+            .setvice-zero__two-right
+              .service-zero__two-cap
+                h3.zero-two__text 0
+                h3.zero-two__text-mid 2
+                .service-text
+                  h3.zero-two__service ПРЕИМУЩЕСТВА
+              ul.benefits-one
+                li.benefit-first 
+                  .bn-position 
+                    img.bn(src="static/img/hexagon.png", alt="")
+                  .benefit-text
+                    h3.benefit Большой опыт работы
+                    p.benefit-text Опыт работы более 5 лет.
+                li.benefit-first 
+                  .bn-position 
+                    img.bn(src="static/img/hexagon.png", alt="")
+                  .benefit-text
+                    h3.benefit Шиномонтажные услуги
+                    p.benefit-text Все работы выполняются в одном месте.
+    
+              ul.benefits-two
+                  li.benefit-second
+                    .bn-position  
+                      img.bn(src="static/img/hexagon.png", alt="")
+                    .benefit-text
+                      h3.benefit Шиномонтажные услуги
+                      p.benefit-text Гарантии на все услуги.
+                  li.benefit-second
+                    .bn-position  
+                      img.bn(src="static/img/hexagon.png", alt="")
+                    .benefit-text
+                      h3.benefit Большой опыт работы
+                      p.benefit-text Любая форма оплаты: наличными, безнал, расчетный счет.
+          .container
+            .zero-three__container
+              .service-zero__three-cap
+                h3.zero-three__text 0
+                h3.zero-three__text-mid 3
+                .service-text
+                  h3.zero-three__service  ПРОМО-ВИДЕО КОМПАНИИ
+              .service-zero__three-video
+                img.company-video(src="static/img/map.png", alt="")
 
-          section-comments
+          .zero-four__container
+            .service-zero__main
+              .service-zero__four-background
+                .service-zero__four-left
+                  .service-zero__four-info
+                    .zero-four__info-top
+                      p.four-text Отреставрировали и покрасили мне мои кованые японские диски, как новые, я их минут десять щупал, оторваться не мог:) Работа сделана качестве!
+                    .zero-four__info-bottom
+                      .four-info__bottom-racer
+                        .raser-pct
+                          a.racer-link(href="")
+                            img.racer(src="static/img/Shumaher.png", alt="")
+                        .racer-info 
+                          h3.racer-name Михаэль Шумахер
+                          p.racer-professional Водитель профессианал
+                      .four-info__bottom-switch
+                        ul.bottom-swch
+                          li.round-swt
+                            label
+                              input.rad-swt(type="radio" name="name")
+                              i.i
+                          li.round-swt
+                            label
+                              input.rad-swt(type="radio" name="name")
+                              i.i
+                          li.round-swt
+                            label
+                              input.rad-swt(type="radio" name="name")
+                              i.i
+                          li.round-swt
+                            label
+                              input.rad-swt(type="radio" name="name")
+                              i.i
+                          li.round-swt
+                            label
+                              input.rad-swt(type="radio" name="name")
+                              i.i
+              .service-zero__four-right
+                .service-zero__right-position
+                  .service-zero__four-cap
+                    h3.zero-four__text 0
+                    h3.zero-four__text-mid 4
+                    .service-text
+                      h3.zero-four__service  ЧТО О НАС ГОВОРЯТ
+                  .our-clients-right
+                    h3.our-clients__cap НАШИ КЛИЕНТЫ И ПАРТНЕРЫ
+                  .zero-four__partners
+                    ul.zero-four__block
+                      li.zero-four__section
+                      li.zero-four__section
+                      li.zero-four__section
+                    .ul-zero__four-hidden
+                      ul.zero-four__block
+                        li.zero-four__section
+                        li.zero-four__section
+                        li.zero-four__section
+          .container
+            .zero-four__questions
+              .zero-four__questions-info
+                h3.quest-cap Остались вопросы?
+                p.questions-text  Оставьте заявку и мы свяжемся с вами в течение 30 минут
+              .zero-four__form
+                form
+                  ul.form-content
+                    li
+                      input.form-cnt(type='text', placeholder='Ваше имя')
+                    |                         
+                    li
+                      input.form-cnt(type='text', placeholder='Ваш номер телефона')
+                    |                         
+                    .btn-order__form 
+                      button.activate__form
+                        a.order-serv(href="") ЗАКАЗАТЬ УСЛУГУ
+                        
+                        
+          
+          .map
             .container
-              .comments-content
-                .comments-content__top
-                  .comments-content__top-left
-                    .comments-contentent__top-about
-                      h1.comments-content__about-title Отзывы о нас
-                  .comments-content__top-right
-                    .comments-content__top-link  
-                      a.comments-content__selfs-link(href='#') Оставить свой
-                    .overlay
-                      .pop-up
-                            h2.review Оставьте отзыв о нашем барбершопе:
-                            form.postcard(action='')
-                              .form-row
-                                label(for='name') Ваше имя
-                                input#name(type='text', required='')
-                              .form-row
-                                label(for='email') Ваш Email
-                                input#email(type='email', required='')
-                              .form-row
-                                label(for='message') Ваше сообщение
-                                textarea#message(rows='5', required='')
-                              .form-row
-                                input(type='submit', value='Отправить сообщение') 
-                            .close-popup
-                              .js-close__compaign  
+              .map-service__position
+                  ul.map-info
+                    li.map-info-top
+                      .map-info-position
+                        a.map-link(href="")
+                          img.location(src="static/img/location-map.png", alt="")
+                        .city-info
+                            h3.city__map г. Челябинск, ул. Краснопольский проспект 1/2
+                    li.map-info-middle
+                      .map-info-position
+                        a.map-link(href="")
+                          img.phone(src="static/img/phone-map.png", alt="")
+                        .call-number
+                          h3.number__map +7 (922) 744-20-10
+                    li.map-info-bottom
+                      .map-info-position
+                        a.map-link(href="")
+                          img.clock(src="static/img/clock-map.png", alt="")
+                        .timetable-works
+                          h3.working-time__map График работы: с 9:00 до 20:00
+                 
+          footer
+              .container
+                .footer-content__position
+                  .footer-content
+                    .footer-top
+                      .right-wheel__size
+                        a.wheel(href="")
+                          img.right-wheel(src="static/img/rectangle-wheel.png", alt="")
+                      ul.menu-footer 
+                        .menu-color
+                          li.service
+                            a.foot-link(href="") Наши услуги
+                            .position-shooter__down
+                              a.foot-link(href="")
+                                img.down-shooter(src="static/img/footer-down__shooter.png", alt="")
+                          li.works
+                            a.foot-link(href="our-works.html") Наши работы
+                          li.about-company
+                            a.foot-link(href="about-company.html") О компании
+                          li.price-list
+                            a.foot-link(href="price.html") Прайс-лист
+                          li.actions-footer
+                            a.foot-link(href="actions.html") Акции
+                          li.partners
+                            a.foot-link(href="") Партнеры
+                          li.feedback
+                            a.foot-link(href="comments.html") Отзывы
+                          li.contacts
+                            a.foot-link(href="contacts.html") Контакты
+                    .footer-middle
+                      ul.map-info__footer
+                        .map-middle__img-li
+                          .right-wheel__size-middle
+                            a.wheel(href="")
+                              img.right-wheel__middle(src="static/img/rectangle-wheel.png", alt="")
+                          .map-separate
+                            li.map-info-top__footer
+                              .position-pict__footer
+                                a(href="").map-link
+                                  img.phone-footer(src="static/img/phone-map.png", alt="")
+                              .call-number
+                                h3.number__footer +7 (922) 744-20-10
+                              .order-call__footer
+                                a.call-phone(href="") Заказать звонок
+
+                            li.map-info-middle__footer
+                              .position-pict__footer
+                                a(href="").map-link
+                                  img.location-footer(src="static/img/location-map.png", alt="")
+                              .city-info
+                                h3.city__footer г. Челябинск, ул. Краснопольский проспект 1/2
+                                
+                            li.map-info-bottom__footer
+                              .position-pict__footer
+                                a(href="").map-link
+                                  img.clock-footer(src="static/img/clock-map.png", alt="")
+                              .timetable-works
+                                h3.works-time__footer График работы: с 9:00 до 20:00
+                        
+                    .footer-bottom
+                      .footer-bottom__autoservice
+                        h3.auto © Автосервис, 2018
+                      .footer-bottom__create
+                        h3.create-site Создание и продвижение сайта
+                        .logo-promotion__position
+                          a.prom(href="")
+                            img.logo-promotion(src="static/img/footer-bottom__promotion.png", alt="")                 
 
 
 
-                .comments-content__middle
-                    .slider__left-button
-                      .left-button__triangle
-                    .slider-content__middle
-                      .slider-img__description
-                        .slider-img__direction-contain
-                          .slider__img
-                            .slider__img-barker
-                          .slider__description
-                            .slider__description-content
-                              p.slider__description-name Трэвис Баркер
-                                p.slider__description-gratitude Спасибо за лысину!Был проездом в Москве,заскочил побриться, чтобы было видно новую татуировку!
-                                                    .slider-content__middle
-                      .slider-img__description
-                        .slider-img__direction-contain
-                          .slider__img
-                            .slider__img-barker
-                          .slider__description
-                            .slider__description-content
-                              p.slider__description-name Трэвис Баркер
-                                p.slider__description-gratitude Спасибо за лысину!Был проездом в Москве,заскочил побриться, чтобы было видно новую татуировку!
-                      .slider-img__description
-                        .slider-img__direction-contain
-                          .slider__img
-                            .slider__img-barker
-                          .slider__description
-                            .slider__description-content
-                              p.slider__description-name Трэвис Баркер
-                                p.slider__description-gratitude Спасибо за лысину!Был проездом в Москве,заскочил побриться, чтобы было видно новую татуировку!
-                    .slider__right-button
-                        .right-button__triangle
-                .comments-content__bottom
-                  .comments-content__bottom-switch
-                    .comments-bottom__switch
-                      .bottom-switch__left
-                      .bottom-switch__middle
-                      .bottom-switch__right
-          include ../sections/footer
-
-  
-      
-      script(src='static/js/libs.min.js')
-      script(src='static/js/navigation.js')
-      script(src='static/js/popup.js')
-      script(src='static/js/preloader.js')
-      script(src='static/js/main.js')
-     
-      
-      
 
 
 
-
-
-
-
-  
 
 
 

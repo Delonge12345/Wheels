@@ -1,0 +1,152 @@
+@media screen and (max-width: 1200px){ //desctop
+    .container{
+        width: 970px;
+    }
+
+    .moto-pct__position {
+        width: 493px;
+        height: 400px;
+    }
+
+    .left-shooter__moto-link {
+       right: 875px;
+    }
+    
+    .right-shooter__moto-link {
+        right: -50px;
+       
+    }
+}
+
+
+
+@media screen and (max-width: 992px){ //laptop
+    .container{
+        width: 750px;
+    }
+    
+    .moto-wheels__top{
+        flex-direction: column;
+        height:1035px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .moto-wheels__top__right-contain{
+        width: 100%;
+        height: 800px;
+        justify-content: center;
+    }
+
+
+    .moto-wheels__top__left-contain {
+       
+        justify-content: center;
+        
+    }
+    .moto-wheels__top__left-contain{
+        width: 100%;
+        height: 650px;
+    }
+    .moto-wheels__top-left{
+        width: 493px;
+    }
+
+
+    .moto-pct__position {
+        width: 750px;
+        height: 500px;
+    }
+
+
+    .left-shooter__moto-link {
+        right: 775px;
+     }
+     
+     .right-shooter__moto-link {
+         right: -5px;
+        
+     }
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px){ //tablets
+    .container{
+        width: 480px;
+    }
+    .moto-pct__position {
+        width: 480px;
+        height: 400px;
+    }
+
+
+    .left-shooter__moto-link {
+        right: 180px;
+     }
+     
+     .right-shooter__moto-link {
+         right: -155px;
+        
+     }
+         
+    .moto-wheels__top{
+       
+        height:900px;
+        
+    }
+    .moto-wheels__bottom {
+       height: 350px;
+    }
+
+    .moto-serv__top {
+       
+        height: 170px;
+    }
+
+    .moto-wheels_one-content {
+        height: 900px;
+    }
+
+.moto-wheels{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ul.moto-wheels{
+    height: 800px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 480px){ //phones
+    .container{
+        width: 95%;
+    }
+    .moto-wheels__top-left{
+        width: 100%;
+    }
+
+    .moto-pct__position {
+        width: 95%;
+        height: 350px;
+    }
+    .moto-wheels__bottom {
+        height: 500px;
+    }
+}   

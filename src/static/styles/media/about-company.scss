@@ -1,0 +1,77 @@
+@media screen and (max-width: 1200px){ //desctop
+    .container{
+        width: 970px;
+    }
+
+   .zero-one__cap-about{
+       width: 100%;
+   }
+   .about-cmp__pct {
+    width: 100%;
+   }
+
+   .zero-one__container-left {
+    width: 80%;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 992px){ //laptop
+    .container{
+        width: 750px;
+    }
+    .about-company__top{
+        align-self: center;
+        flex-direction: column;
+    }
+
+    ul.company-text__content {
+       
+        width: 100%;
+    }
+    .zero-one__container-left{
+        width: 100%;
+    }
+    .about-company__text{
+        width: 100%;
+    }
+    .about-company__block{
+        width: 100%;
+    }
+
+  
+
+
+
+}
+
+@media screen and (max-width: 768px){ //tablets
+    .container{
+        width: 480px;
+    }
+
+    .service-zero__two-cap {
+        justify-content: center;
+    }
+    .benefit-first,.benefit-second{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px){ //phones
+    .container{
+        width: 95%;
+    }
+    
+    .about-cmp__pct{
+        display: none;
+    }
+    .zero-one__container {
+   
+        height: 870px;
+    }
+}   

@@ -1,0 +1,131 @@
+@media screen and (max-width: 1200px){ //desctop
+    .container{
+        width: 970px;
+    }
+    .about-service__pct {
+        width: 970px;
+        
+    }
+    
+    .red-car{
+        width: 100%;
+    }
+
+    .text__middle-left__position, .text__middle-right__position {
+        width: 385px;
+        height: 150px;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px){ //laptop
+    .container{
+        width: 750px;
+    }
+    .text-top__position {
+     
+    
+        width: 65%;
+        
+    }
+
+    .text__middle-left__position, .text__middle-right__position {
+        width: 267px;
+        font-size: 17px;
+    }
+    .text-top__position{
+        font-size: 17px;
+    }
+    .about-service__text-middle{
+        height: 200px;
+    }
+    .about-service__pct {
+        width: 750px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+}
+
+@media screen and (max-width: 768px){ //tablets
+    .container{
+        width: 480px;
+    }
+
+
+    .about-service__pct {
+        width: 480px;
+    }
+
+    .one-cap__position {
+       
+        height: 225px;
+    }
+    
+    .about-service__text-middle {
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+    }
+
+    .service-text__middle-left, .service-text__middle-right {
+        height: 250px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about-service__text-top {
+        height: 235px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .about-service__content {
+        height: 910px;
+    }
+
+
+
+
+    
+}
+
+@media screen and (max-width: 480px){ //phones
+    .container{
+        width: 95%;
+    }
+    
+
+    .about-service__pct {
+        width: 95%;
+    }
+}   

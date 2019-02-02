@@ -1,0 +1,98 @@
+@media screen and (max-width: 1200px){ //desctop
+    .container{
+        width: 970px;
+    }
+    .actions-diagnostics {
+    
+        align-items: center;
+        flex-direction: column;
+       
+    }
+   .actions-diagnostics__left{
+       width: 100%;
+       justify-content: center;
+   }
+    .zero-one__service-diag{
+        font-size: 31px;
+    }
+}
+
+
+
+@media screen and (max-width: 992px){ //laptop
+    .container{
+        width: 750px;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 768px){ //tablets
+    .container{
+        width: 480px;
+    }
+    .actions-diagnostics__left-content,.condicioner-text{
+        width: 100%;
+    }
+
+    .actions-diagnostics__pct-pos{
+        width: 480px;
+    }
+
+    .actions-costs__middle-ul {
+       
+        width: 100%;
+        
+    }
+    .condicioner-text{
+        height: 315px;
+    }
+    .zero-one__service-diag{
+        width: 300px;
+    }
+    .zero-one__service-diag{
+        font-size: 22px;
+    }
+    .one-cap__position {
+        height:40%;
+        width: 100%;
+    }
+    .service-zero__one-cap{
+        height: 215px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 480px){ //phones
+    .container{
+        width: 95%;
+    }
+    
+    .actions-diagnostics__left-middle{
+        height: 60px;
+    }
+    .actions-costs__middle-li{
+        height: 30px;
+    }
+    .actions-diagnostics__right{
+        width: 100%;
+    }
+    .actions-diagnostics__pct-pos{
+        width: 95%;
+    }
+
+    .actions-diagnostics__left-content, .condicioner-text {
+        width: 95%;
+        height: 550px;
+
+    }
+    .actions-container__diag {
+        height: 1400px;
+    }
+    .diagnostics-pct {
+        width: 100%;
+        height: 350px;
+    }
+}   

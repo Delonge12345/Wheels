@@ -1,20 +1,26 @@
 header 
-    .container
-        .menu
-            a.touch-menu(href='#')
-                span.line
-        nav
-            ul.header__list
-                li.header-nav
-                    a.main(href='#') Главная
-                li.header-nav
-                    a.works(href='#') Наши работы
-                li.header-nav
-                    a.fill(href='#') Записаться
-                li.header-nav
-                    a.contacts(href='#') Контакты
-                li.header-nav
-                    a.html(href='#') HTML ACADEMY
-                li.header-nav__log
-                    a.exit(href='#') Вход      
-                
+          .container
+            .header-information__contain
+              .header-information
+                .header-left
+                  .city
+                    .position-pict
+                      a(href="").link-header__logo
+                        img.city-logo(src="static/img/header-first.png", alt="")
+                    p.header-text г. Челябинск, ул. Краснопольский проспект 1/2
+                  .timetable
+                    .position-pict
+                      a(href="").link-header__logo
+                        img.time-logo(src="static/img/header-second.png", alt="")
+                    p.header-text График работы: с 9:00 до 20:00
+                .header-right
+                  .call
+                    .position-pict
+                      a(href="").link-header__logo
+                        img.call-logo(src="static/img/header-third.png", alt="")
+                    p.mobile +7 (922) 744-20-10 
+                    .order-call
+                      a.call-phone(href="") Заказать звонок
+              .position-wheel__header
+                  a.wheel(href="")
+                    img.right-wheels(src="static/img/rectangle-wheel.png", alt="")

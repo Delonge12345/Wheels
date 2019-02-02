@@ -1,0 +1,213 @@
+@media screen and (max-width: 1200px){ //desctop
+    .container{
+        width: 970px;
+    }
+
+    thead.edition{
+        display: none;
+    }
+
+    table.editing-discs td {
+        position: relative;
+    }
+
+    table.editing-discs td:before{
+        content:attr(data-edit);
+        position: absolute;
+        left: 10%;
+    }
+   
+    table.editing-discs td{
+        display: block;
+        padding-left: 50%;
+    }
+    
+    table.editing-discs {
+        
+        font-size: 18px;
+        
+    }
+    
+    table.editing-discs tr td {
+        border: 1px solid #000;
+       text-align: center;
+    }
+    .price-editing__table {
+        height: 400px;
+        
+    }
+    
+}
+
+
+
+@media screen and (max-width: 992px){ //laptop
+    .container{
+        width: 750px;
+    }
+    thead{
+        display: none;
+    }
+
+    table.tire-fitting td {
+        position: relative;
+    }
+
+    table.tire-fitting td:before{
+        content:attr(data-label);
+        position: absolute;
+        left: 10%;
+    }
+    .moto-wheels__middle-table{
+        height: 1000px;
+    }
+    table.tire-fitting td{
+        display: block;
+        padding-left: 50%;
+    }
+    .price-fitting__table {
+        height: 2900px;
+        
+    }
+    table.tire-fitting {
+        
+        font-size: 18px;
+        
+    }
+    .fit__left{
+        text-align: center;
+    }
+    table.tire-fitting tr td {
+        border: 1px solid #000;
+       
+    }
+    thead.edition{
+        display: none;
+    }
+
+    table.editing-discs td {
+        position: relative;
+    }
+
+    table.editing-discs td:before{
+        content:attr(data-edit);
+        position: absolute;
+        left: 10%;
+    }
+   
+    table.editing-discs td{
+        display: block;
+        padding-left: 50%;
+    }
+    
+    table.editing-discs {
+        
+        font-size: 18px;
+        
+    }
+    
+    table.editing-discs tr td {
+        border: 1px solid #000;
+       text-align: center;
+    }
+    .price-editing__table {
+        height: 400px;
+        
+    }
+
+
+
+    
+}
+
+@media screen and (max-width: 768px){ //tablets
+    .container{
+        width: 480px;
+    }
+    thead.fitting{
+        display: none;
+    }
+
+    table.tire-fitting td {
+        position: relative;
+    }
+
+    table.tire-fitting td:before{
+        content:attr(data-label);
+        position: absolute;
+        left: 10%;
+    }
+    .moto-wheels__middle-table{
+        height: 1000px;
+    }
+    table.tire-fitting td{
+        display: block;
+        padding-left: 50%;
+    }
+    .price-fitting__table {
+        height: 2890px;
+        
+    }
+    table.tire-fitting {
+        
+        font-size: 18px;
+        
+    }
+    .fit__left{
+        text-align: center;
+    }
+    table.tire-fitting tr td {
+        border: 1px solid #000;
+       
+    }
+    ////////////////////////////
+    thead.edition{
+        display: none;
+    }
+
+    table.editing-discs td {
+        position: relative;
+    }
+
+    table.editing-discs td:before{
+        content:attr(data-edit);
+        position: absolute;
+        left: 10%;
+    }
+   
+    table.editing-discs td{
+        display: block;
+        padding-left: 50%;
+    }
+    
+    table.editing-discs {
+        
+        font-size: 18px;
+        
+    }
+    
+    table.editing-discs tr td {
+        border: 1px solid #000;
+       text-align: center;
+    }
+    .price-editing__table {
+        height: 400px;
+        
+    }
+
+    ////////////////
+    h3.bold-add {
+       
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 480px){ //phones
+    .container{
+        width: 95%;
+    }
+    
+    
+    
+}   

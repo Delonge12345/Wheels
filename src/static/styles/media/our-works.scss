@@ -1,0 +1,78 @@
+@media screen and (max-width: 1200px){ //desctop
+    .container{
+        width: 970px;
+    }
+    img.st-works {
+        width: 230px;
+        height: 230px;
+    }
+    .wheels-bg__works-pos {
+        width: 75%;
+        
+    }
+    li.first-wheel__works, li.second-wheel__works, li.third-wheel__works, li.fourth-wheel__works {
+     
+        width: 242px;
+       
+    }
+    
+}
+
+
+
+@media screen and (max-width: 992px){ //laptop
+    .container{
+        width: 750px;
+    }
+    li.first-wheel__works, li.second-wheel__works, li.third-wheel__works, li.fourth-wheel__works {
+        width: 187px;
+    }
+    img.st-works {
+        width: 175px;
+        height: 215px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){ //tablets
+    .container{
+        width: 480px;
+    }
+
+    img.st-works {
+        width: 200px;
+        height: 215px;
+    }
+    .fst-wheels__composit,.snd-wheels__composit{
+        flex-direction: column;
+      
+    }
+    .wheels-bg__pos-works{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .works-wheels__one-wheels{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .works-wheels__container {
+        height: 2300px;
+    }
+
+    .wheels-bg__works-pos {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 480px){ //phones
+    .container{
+        width: 95%;
+    }
+    img.st-works {
+        width: 180px;
+        height: 200px;
+    }
+}   

@@ -1,0 +1,77 @@
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    
+    link(rel="stylesheet", href="static/css/main.css")
+
+    
+    
+    
+    block title
+       
+  body
+      
+      .wrapper
+        include ../sections/header
+        include ../sections/header-order
+        .about-company__block
+            .container
+                .about-company__top
+                    .zero-one__container-left
+                        .service-zero__one-about
+                            .zero-one__cap-about
+                                h3.zero-one__text 0
+                                h3.zero-one__text-mid 1
+                                .service-text
+                                    h3.zero-one__service О КОМПАНИИ
+
+                        .about-company__text
+                            ul.company-text__content
+                                li.about-paragraph
+                                    p Компания Right Wheels — лидер в отрасли реставрации автомобильных комплектующих таких как: Покраска дисков, Окраска тормозных суппортов, клапанных крышек и др. металлических деталей вашего автомобиля.
+                                li.about-paragraph
+                                    p Компания была основана в 2013 году и является динамично развивающейся компанией. Основное направление компании RW - это ремонт автомобильных дисков любой сложности и порошково - полимерная окраска дисков в любые цвета!
+                                li.about-paragraph
+                                    p Мы ценим время наших клиентов и стараемся выполнить все работы в максимально короткое время c гарантией качества!
+                    .zero-one__container-right
+                        .about-pct__position
+                            img.about-cmp__pct(src="static/img/service-repairing.png", alt="")
+                .zero-three__container
+                    .service-zero__three-cap
+                        h3.zero-three__text 0
+                        h3.zero-three__text-mid 2
+                        .service-text
+                            h3.zero-three__service  ПРОМО-ВИДЕО КОМПАНИИ
+                    .service-zero__three-video
+                        img.company-video(src="static/img/map.png", alt="")
+        include ../sections/sections-zero/section-zero__two
+        .container
+            .zero-one__container
+                .service-zero__one
+                  block service-zero__one-cap
+                    h3.zero-one__text 0
+                    h3.zero-one__text-mid 5
+                    .service-text
+                      h3.zero-one__service НАШИ УСЛУГИ
+                .service-zero__one-wheels
+                  ul.wheels
+                    li.first-wheel
+                      img.st(src="static/img/service-wheel-1.png", alt="")
+                      a.style(href="") Покраска дисков
+                    li.second-wheel
+                      img.st(src="static/img/service-wheel-2.png", alt="") 
+                      a.style(href="") Правка и ремонт дисков
+                  ul.wheels
+                    li.third-wheel
+                      img.st(src="static/img/service-wheel-3.png", alt="")
+                      a.style(href="") Шиномонтажные услуги
+                    li.fourth-wheel
+                      img.st(src="static/img/service-wheel-4.png", alt="")
+                      a.style(href="") Дополнительные услуги
+        include ../sections/forms/section-zero__four-form
+        include ../sections/map
+        include ../sections/footer
+
+                
