@@ -4,13 +4,32 @@ body {
 
 }
 
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
 .wrapper {
     min-height: 100%;
     width: 100%;
     overflow-x: hidden;
     background: #f8f5f2;
     
+    
 }
+
+.fix{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.fix-one,.fix-two,.fix-three,.fix-four,.fix-order,.fix-about,.fix-order__form,.fix-order__add{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
 
 .container {
    position: relative;
@@ -25,10 +44,16 @@ header {
     min-height: 40px;
 }
 
+.section-slider{
+    height: 1000px;
+}
 
 
-
-
+@import 'libs.scss';
+@import 'burgers.scss';
+@import 'sliders.scss';
+@import 'circle.scss';
+@import 'preloader.scss';
 @import 'index/header.scss';
 @import 'index/section-rectangle.scss';
 @import 'index/section-actions';
@@ -42,6 +67,8 @@ header {
 @import 'layout-styles/contacts.scss';
 @import 'layout-styles/actions.scss';
 @import 'layout-styles/actions-diagnostics.scss';
+@import 'parallax.scss';
+@import 'popup.scss';
 @import 'media/media-index.scss';
 @import 'media/media-service.scss';
 @import 'media/media-comments.scss';
@@ -55,6 +82,8 @@ header {
 @import 'media/our-works.scss';
 @import 'media/price.scss';
 @import 'media-general.scss';
+@import 'media/media-burgers.scss';
+@import 'media/media-slick.scss';
 @import 'media/media.scss';
 
 

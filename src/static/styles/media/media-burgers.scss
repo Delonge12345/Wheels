@@ -1,0 +1,143 @@
+@media screen and (max-width: 1200px){ //desctop
+    .container{
+        width: 970px;
+    }
+
+ 
+
+
+}
+
+
+@media screen and (max-width: 992px){ //laptop
+    .container{
+        width: 750px;
+    }
+    
+    nav{
+        width: 70%;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 768px){ //tablets
+    .container{
+        width: 480px;
+    }
+
+    nav{
+    
+      display: none;
+       min-height: 1px;
+       width: 50%;
+    }
+    .menu-color{
+        min-height: 1px;
+        display: none;
+    }
+    .position-shooter__down{
+        display: none;
+    }
+    .touch-menu {
+        display: flex;
+        justify-content: center;
+    }
+    .touch-foot {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    .line-vert{
+        transform: rotate(270deg);
+    }
+    .line-vert__foot{
+        transform: rotate(270deg);
+    }
+
+    .touch-menu_active span::before {
+        width: 11px;
+        transform: rotate(35deg);
+        transform-origin: top left;
+    }
+    .touch-menu_active span::after {
+        width: 10px;
+        transform: rotate(-35deg);
+        transform-origin: top left;
+    }
+    
+
+    .touch-active__foot span::before {
+        width: 11px;
+        transform: rotate(35deg);
+        transform-origin: top left;
+    }
+    .touch-active__foot span::after {
+        width: 10px;
+        transform: rotate(-35deg);
+        transform-origin: top left;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+    .line-vert{
+        transform: rotate(270deg);
+    }
+    .line-vert__foot{
+        transform: rotate(270deg);
+    }
+
+
+    .menu-burger,.burger-footer{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+    }
+    
+
+    ul.menu li{
+        text-align: center;
+    }
+    
+    li.service{
+        justify-content: center;
+    }
+    
+
+    ul.menu-footer {
+        flex-direction: column;
+         
+     }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 480px){ //phones
+    .container{
+        width: 95%;
+    }
+    
+    
+
+
+
+
+}   

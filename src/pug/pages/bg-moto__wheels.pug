@@ -12,8 +12,14 @@ html(lang='en')
     block title
        
   body
-      
-      .wrapper
+    include ../sections/preloader
+    include ../sections/popups/index/popup-service
+    include ../sections/popups/index/popup-service__form
+    include ../sections/popups/index/popup-addition__form
+    .wrapper
+     .fix-order
+      .fix-order__form
+       .fix-order__add
         include ../sections/header
         include ../sections/header-order
         .container
@@ -165,6 +171,8 @@ html(lang='en')
                             .service-text
                                 h3.zero-one__service НАШИ РАБОТЫ
                     .moto-wheels_one-content
+                     .section-slider
+                      .slider-three
                         ul.moto-wheels
                             li.moto-slide
                                 .moto-wheel__before
@@ -179,14 +187,57 @@ html(lang='en')
                                 .moto-wheel__before-pct
                                     a.st-link(href="")
                                         img.before-pct(src="static/img/bg-moto__wheels/bg-moto__wheels-2.png", alt="")
-                            .moto-wheels__shooters
-                                .moto-left__shooter
-                                    a(href="").left-shooter__moto-link
-                                        span
-                                .moto-right__shooter
-                                    a(href="").right-shooter__moto-link
-                                        span
-                        .moto-wheels__switch
+                        ul.moto-wheels
+                            li.moto-slide
+                                .moto-wheel__before
+                                    h2.wheel-line.lntxt До
+                                .moto-wheel__before-pct
+                                    a.st-link(href="")
+                                        img.before-pct(src="static/img/bg-moto__wheels/bg-moto__wheels-1.png", alt="")
+                            
+                            li.moto-slide
+                                .moto-wheel__after
+                                    h2.wheel-line.lntxt После         
+                                .moto-wheel__before-pct
+                                    a.st-link(href="")
+                                        img.before-pct(src="static/img/bg-moto__wheels/bg-moto__wheels-2.png", alt="")
+                        ul.moto-wheels
+                            li.moto-slide
+                                .moto-wheel__before
+                                    h2.wheel-line.lntxt До
+                                .moto-wheel__before-pct
+                                    a.st-link(href="")
+                                        img.before-pct(src="static/img/bg-moto__wheels/bg-moto__wheels-1.png", alt="")
+                            
+                            li.moto-slide
+                                .moto-wheel__after
+                                    h2.wheel-line.lntxt После         
+                                .moto-wheel__before-pct
+                                    a.st-link(href="")
+                                        img.before-pct(src="static/img/bg-moto__wheels/bg-moto__wheels-2.png", alt="")
+                        ul.moto-wheels
+                            li.moto-slide
+                                .moto-wheel__before
+                                    h2.wheel-line.lntxt До
+                                .moto-wheel__before-pct
+                                    a.st-link(href="")
+                                        img.before-pct(src="static/img/bg-moto__wheels/bg-moto__wheels-1.png", alt="")
+                            
+                            li.moto-slide
+                                .moto-wheel__after
+                                    h2.wheel-line.lntxt После         
+                                .moto-wheel__before-pct
+                                    a.st-link(href="")
+                                        img.before-pct(src="static/img/bg-moto__wheels/bg-moto__wheels-2.png", alt="")
+                    .moto-wheels__shooters
+                        .moto-left__shooter
+                            a(href="").left-shooter__moto-link(src="static/img/moto-shout.png", alt="")
+                                span
+                                
+                        .moto-right__shooter
+                            a(href="").right-shooter__moto-link
+                                span
+                        //-     .moto-wheels__switch
                             .moto-swch
                                 label.moto-label(for="")
                                     input.moto-input(type="radio")
@@ -238,3 +289,11 @@ html(lang='en')
                     
         include ../sections/map
         include ../sections/footer
+    <script src='static/js/libs.min.js'></script>
+    <script src="static/js/particles.min.js"></script>
+    <script src="static/js/slick.js"></script>
+    <script src="static/js/popup-form.js"></script>
+    <script src="static/js/popup-addition__form.js"></script>
+    <script src="static/js/navigation.js"></script>
+    <script src="static/js/footer-navigation.js"></script>
+    <script src="static/js/preloader.js"></script>

@@ -1,0 +1,43 @@
+.zero-four__info-bottom{
+    height: 170px;
+}
+
+.four-info__bottom-racer{
+    display: flex!important;
+    align-items:center;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+     font-size: 6px;
+     line-height: 20px;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     width: 20px;
+     height: 20px;
+     content: ''; /* <-- Вот этот символ */
+     background-image: url(../img/cont-krug.png);
+        background-size: 20px 20px;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+     text-align: center;
+     
+     color: #fff;
+     border:2px solid #fff;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     
+     border-radius: 50%;
+   }
+  
+   ul.moto-wheels{
+       display: flex!important;
+   }
+
+   .left-shooter__moto-link{
+       width: 60px;
+   }
+
+  

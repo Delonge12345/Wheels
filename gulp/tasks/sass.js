@@ -12,8 +12,11 @@ module.exports = function() {
             .pipe(includes.gp.sourcemaps.write())
             
             .pipe(includes.gulp.dest('build/static/css'))
+           
             .pipe(includes.browserSync.reload({
                 stream:true
             }));
+
+            
     });
 }

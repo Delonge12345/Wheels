@@ -1,0 +1,71 @@
+@media screen and (max-width: 1200px){ //desctop
+    .container{
+        width: 970px;
+    }
+
+    .right-shooter__moto-link {
+       
+        position: absolute;
+        right: -70px;
+        display: block;
+        width: 70px;
+        height: 40px;
+        left: 60%;
+        bottom: 80px;
+    }
+
+    .left-shooter__moto-link {
+        position: absolute;
+        bottom: 80px;
+        right: 1160px;
+        display: block;
+        width: 70px;
+        left: 33%;
+        height: 40px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 992px){ //laptop
+    .container{
+        width: 750px;
+    }
+    
+  
+    
+}
+
+@media screen and (max-width: 768px){ //tablets
+    .container{
+        width: 480px;
+    }
+
+    .right-shooter__moto-link {
+        position: absolute;
+        right: -70px;
+        display: block;
+        width: 70px;
+        height: 40px;
+        left: 70%;
+        bottom: 65px;
+    }
+    .left-shooter__moto-link {
+        position: absolute;
+        bottom: 65px;
+        right: 1160px;
+        display: block;
+        width: 70px;
+        left: 16%;
+        height: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 480px){ //phones
+    .container{
+        width: 95%;
+    }
+    
+}   

@@ -1,10 +1,14 @@
 section-rectangle
-          .container
+      .container
             .rec-content
               .position-wheel
                 a.wheel(href="")
                   img.right-wheels(src="static/img/rectangle-wheel.png", alt="")
-              ul.menu
+              .menu-burger
+                a.touch-menu(href='#')
+                  span.line
+              nav
+               ul.menu
                 li.service
                   a.header-menu(href="") Наши услуги
                   .position-shooter__down
@@ -26,4 +30,7 @@ section-rectangle
                  a.header-menu(href="") Контакты
               .btn-order 
                 button.activate
-                  a.order-serv(href="") ЗАКАЗАТЬ УСЛУГУ
+                  h2.order-serv(href="") ЗАКАЗАТЬ УСЛУГУ
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="static/js/popup-service.js"></script>

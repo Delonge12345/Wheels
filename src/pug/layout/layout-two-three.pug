@@ -3,7 +3,7 @@ html(lang='en')
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     meta(http-equiv='X-UA-Compatible', content='ie=edge')
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     link(rel="stylesheet", href="static/css/main.css")
 
     
@@ -12,12 +12,38 @@ html(lang='en')
     block title
        
   body
-      
+      include ../sections/preloader
+      include ../sections/popups/actions/popup-one
+      include ../sections/popups/actions/popup-two
+      include ../sections/popups/actions/popup-three
+      include ../sections/popups/actions/popup-four
+      include ../sections/popups/actions-diagnostics/act-diag
+      include ../sections/popups/index/popup-service
+      include ../sections/popups/index/popup-addition__form
       .wrapper
-        include ../sections/header
-        include ../sections/header-order
-        block wheels
-        include ../sections/section-red__car
-        include ../sections/forms/section-zero__four-form
-        include ../sections/map
-        include ../sections/footer
+        .fix-order
+          .fix-one
+            .fix-two
+              .fix-three
+                .fix-four
+                  .fix-order__form
+                    .fix-order__add
+                      include ../sections/header
+                      include ../sections/header-order
+                      block wheels
+                      include ../sections/section-red__car
+                      include ../sections/forms/section-zero__four-form
+                      include ../sections/map
+                      include ../sections/footer
+      <script src="static/js/popup-two.js"></script>
+      //- <script src="static/js/popup-form.js"></script>
+      <script src="static/js/popup-addition__form.js"></script>
+      <script src="static/js/preloader.js"></script>
+      
+    
+      
+      
+      
+      
+      
+

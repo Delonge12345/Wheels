@@ -12,8 +12,13 @@ html(lang='en')
     block title
        
   body
+    include ../sections/preloader
+    include ../sections/popups/index/popup-service
+    include ../sections/popups/index/popup-addition__form
+    .wrapper
+      .fix-order
+       .fix-order__add
       
-      .wrapper
         include ../sections/header
         include ../sections/header-order
         .service-zero__one
@@ -357,3 +362,7 @@ html(lang='en')
                     
         include ../sections/map
         include ../sections/footer
+    <script src="static/js/popup-addition__form.js"></script>
+    <script src="static/js/navigation.js"></script>
+    <script src="static/js/footer-navigation.js"></script>
+    <script src="static/js/preloader.js"></script>

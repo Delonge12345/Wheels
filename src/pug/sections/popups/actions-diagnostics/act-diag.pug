@@ -1,0 +1,17 @@
+.overlay-diag
+                      .pop-up__diag
+                            h2.review ЧТОБЫ УЧАВСТВОВАТЬ В АКЦИИ:
+                            form.postcard(action='')
+                              .form-row
+                                label(for='name') Ваше имя
+                                input#name(type='text', required='')
+                              .form-row
+                                label(for='email') Ваш Email
+                                input#email(type='email', required='')
+                              .form-row
+                                label(for='message') Ваше сообщение
+                                textarea#message(rows='5', required='')
+                              .form-row
+                                input(type='submit', value='Отправить сообщение') 
+                            .close-popup__diag
+                              .js-close__compaign  
