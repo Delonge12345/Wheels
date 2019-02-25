@@ -57,14 +57,15 @@
     font-size: 14px;
 }
 .call-phone:hover{
-    border-bottom:0px ;
+    transition: all .2s;
+    border-bottom:2px solid #fff ;
     
     
 }
 .call-phone{
     color: #fff;
     text-decoration: none;
-    border-bottom:2px solid #fff;
+    border-bottom:2px solid rgba(255,255,255,0.4);
 }
 
 .header-menu{
@@ -177,15 +178,17 @@ a.link-header__logo{
 //     transform: translateY(5px);
 // }
 
-.menu li a:hover{
+li.works-header a:hover,li.about-company__header a:hover,li.price-list__header a:hover,li.actions-header__header a:hover,li.partners-header__header a:hover,li.feedback-header a:hover,li.contacts-header a:hover{
+    transition: all .2s;
     border-bottom:2px solid #D41F25;
     
 }
 
 
-.menu-footer li a:hover{
-    border-bottom:2px solid #D41F25;
-}
+// .menu-footer li a:hover{
+//     transition: all .2s;
+//     border-bottom:2px solid #D41F25;
+// }
 
 // .foot-link{
 //     width: 65%;

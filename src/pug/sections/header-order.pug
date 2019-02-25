@@ -9,24 +9,32 @@ section-rectangle
                   span.line
               nav
                ul.menu
-                li.service
-                  a.header-menu(href="") Наши услуги
-                  .position-shooter__down
-                    a(href="").down-shooter__link-header
-                      img.down-shooter(src="static/img/rectangle-shooter.png", alt="")
-                li.works
+                .menu-horizontal
+                 ul.menu-horizontal__menu
+                  li.service-header  
+                   a.header-menu(href="") Наши услуги
+                   ul.menu-down
+                    li.menu-down__li
+                      a.menu-down___link(href="#") Услуга 1
+                    li.menu-down__li
+                      a.menu-down___link(href="#") Услуга 2
+                    li.menu-down__li
+                      a.menu-down___link(href="#") Услуга 3
+                
+                  
+                li.works-header
                  a.header-menu(href="") Наши работы
-                li.about-company
+                li.about-company__header
                  a.header-menu(href="") О компании
-                li.price-list
+                li.price-list__header
                  a.header-menu(href="") Прайс-лист
-                li.actions-header
+                li.actions-header__header
                  a.header-menu(href="") Акции
-                li.partners
+                li.partners-header__header
                  a.header-menu(href="") Партнеры
-                li.feedback
+                li.feedback-header
                  a.header-menu(href="") Отзывы
-                li.contacts
+                li.contacts-header
                  a.header-menu(href="") Контакты
               .btn-order 
                 button.activate

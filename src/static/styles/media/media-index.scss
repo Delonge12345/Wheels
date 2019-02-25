@@ -379,6 +379,7 @@ li.map-info-top__footer, li.map-info-middle__footer, li.map-info-bottom__footer{
     }
   
 
+
     .zero-four__info-top {
       
         height: 124px;
@@ -391,6 +392,27 @@ li.map-info-top__footer, li.map-info-middle__footer, li.map-info-bottom__footer{
     justify-content: space-between;
     align-items: center;
 }
+
+.menu-horizontal__menu{
+    display: none;
+}
+
+ul.menu{
+    width: 61%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -447,7 +469,7 @@ li.map-info-top__footer, li.map-info-middle__footer, li.map-info-bottom__footer{
 
 
 ul.menu {
-    width: 50%;
+    width: 61%;
     font-weight: bold;
     font-size: 15px;
     display: flex;

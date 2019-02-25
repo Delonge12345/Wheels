@@ -8,9 +8,12 @@ nav {
     font-family: 'Roboto', sans-serif;
     list-style-type: none;
 }
-
+.menu li a{
+    border-bottom:2px solid #fff;
+}
 .menu li a:hover{
-    border-bottom:2px solid #D41F25;
+    transition: all .2s;
+    border-bottom:2px solid rgba(255,255,255,0.4);
     
 }
 
@@ -90,15 +93,22 @@ nav {
 }
 
 
-
-
-
-.menu-footer li a:hover{
-    border-bottom:2px solid #D41F25;
+.menu-footer li a{
+    border-bottom:2px solid #fff;
 }
 
 
-
+.menu-footer li a:hover{
+    transition: all .2s;
+    border-bottom:2px solid rgba(255,255,255,0.4);
+    
+}
+.down-shooter__link-header{
+   border-bottom: 0px!important;
+}
+.foot-link__img{
+    display: none;
+}
 
 
 .menu li {

@@ -17,6 +17,7 @@ module.exports = function() {
         includes.gulp.watch('src/static/js/parallax.js',includes.gulp.series('scripts'));
         includes.gulp.watch('src/static/js/preloader.js',includes.gulp.series('scripts'));
         includes.gulp.watch('src/static/js/particles.min.js',includes.gulp.series('scripts'));
+        includes.gulp.watch('src/static/js/red-car__switch.js',includes.gulp.series('scripts'));
       
         
     });
