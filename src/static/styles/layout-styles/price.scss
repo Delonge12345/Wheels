@@ -33,15 +33,21 @@ table.editing-discs {
     border-bottom: none;
   }
  
-  table.editing-discs tr:hover td {
+  // table.editing-discs tr:hover td {
     
+  // }
+
+  .td-left__position-r,.td-center__position,.td-left__position{
+    cursor: pointer;
   }
+
+
+
+
 
   td.cost{
     padding: 12px 17px;
   }
-
-
 
 
 
@@ -180,7 +186,9 @@ table.additive-services td:hover {
   
   background: #D41F25;
 }
-
+.fit__left:hover{
+  background: #D41F25;
+}
 
 .price-editing__table{
   
@@ -194,4 +202,18 @@ table.additive-services td:hover {
   height: 700px;
   display: flex;
   align-items: center;
+}
+
+td[data-label]{
+  cursor: pointer;
+}
+table.additive-services td{
+  cursor: pointer;
+}
+
+td[data-edit]{
+  cursor: pointer;
+}
+td.cost,.fit__left{
+  cursor: inherit!important;
 }
