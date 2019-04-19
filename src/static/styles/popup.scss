@@ -250,7 +250,7 @@
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
-.overlay-diag{
+.overlay-diag,.overlay-addition,.overlay-form,.overlay-service{
     z-index: 1;
     position: absolute;
     width: 100%;
@@ -309,7 +309,7 @@ h2.review{
 
 
 
-.pop-up__diag{
+.pop-up__service-addition,.pop-up__service-form,.pop-up__diag,.pop-up__service{
     position: absolute;
     height: 430px;
     width: 265px;

@@ -7,6 +7,7 @@ $(touchFoot).on('click', function(e) {
     e.preventDefault();
     $(this).toggleClass('touch-menu_active');
     $(this).toggleClass('line-vert');
+   
     
     
     menuFoot.slideToggle();

@@ -64,4 +64,28 @@
         
         height: 215px;
     }
+
+    @media screen and (max-width: 320px){ //phones Iphone 5
+        .container{
+            width: 95%;
+        }
+
+        .zero-one__container{
+            height: 1920px;
+        }
+    }
+    @media screen and (max-width: 320px){ //phones Iphone 5
+        .container{
+            width: 95%;
+        }
+        .special-comment{
+            height: 200px!important;
+        }
+        .cmnt-pct{
+            height: 170px!important;
+        }
+        .about-service__content {
+            height: 910px;
+        }
+    }
 }   

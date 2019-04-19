@@ -32,6 +32,11 @@
     .container{
         width: 480px;
     }
+    .zero-one__container-about{
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    }
     .actions-diagnostics__left-content,.condicioner-text{
         width: 100%;
     }

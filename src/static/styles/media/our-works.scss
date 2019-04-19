@@ -75,4 +75,22 @@
         width: 180px;
         height: 200px;
     }
+
+    @media screen and (max-width: 320px){ //phones Iphone 5
+        .container{
+            width: 95%;
+        }
+        ul.wheels-bg__pos-works {
+            flex-direction: column;
+            align-items: center;
+        }
+        .works-wheels__container{
+            height: 4100px;
+        }
+
+        .wheels-bg__works-pos {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 }   

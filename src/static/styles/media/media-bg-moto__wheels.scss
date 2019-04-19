@@ -152,4 +152,42 @@ ul.moto-wheels{
     .moto-wheels__middle{
         height: 1070px;
     }
+
+    @media screen and (max-width: 320px){ //phones Iphone 5
+        .container{
+            width: 95%;
+        }
+
+        .moto-bt__text{
+            width: 300px;
+        }
+        .moto-wheels__top__left-contain{
+            height: 1300px;
+        }
+        .moto-wheels__top{
+            height: 1200px;
+        }
+
+        caption{
+            height: 80px!important;
+        }
+        .moto-wheels__price-top{
+            font-size: 12px!important;
+        }
+        .moto-wheels__middle{
+            height: 900px;
+        }
+        ul.moto-serv__top{
+            height: 230px;
+        }
+       .moto-wheels__bottom{
+           width: 305px;
+       }
+       .left-shooter__moto-link {
+           left: 8%!important;
+       }
+       .before-pct{
+           width: 250px;
+       }
+    }
 }   

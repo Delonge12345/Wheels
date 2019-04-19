@@ -137,6 +137,12 @@
         position: absolute;
         left: 10%;
     }
+    table.moto-wheels__price-top {
+       
+        font-size: 15px;
+        
+    }
+    
     .moto-wheels__middle-table{
         height: 1000px;
     }
@@ -211,3 +217,37 @@
     
     
 }   
+
+@media screen and (max-width: 320px){ //phones Iphone 5
+    .container{
+        width: 95%;
+    }
+    .moto-wheels__middle-table {
+        height: 790px;
+    }
+
+    table.moto-wheels__price-top {
+       
+        font-size: 10px!important;
+       
+    }
+    table.tire-fitting {
+        font-size: 10px;
+    }
+    .price-fitting__table {
+        height: 2000px;
+    }
+    table.editing-discs {
+        font-size: 10px;
+    }
+    .price-editing__table {
+        height: 325px;
+    }
+    .td-add__position-price{
+        align-items: center;
+    }
+    .bold-add,.add-price{
+        font-size: 11px!important;
+    }
+}
+

@@ -366,7 +366,7 @@ li.map-info-top__footer, li.map-info-middle__footer, li.map-info-bottom__footer{
 }
 
 .right-wheel__middle{
-    width: 100%;
+    width: 150px;
     height: 100%;
 }
 
@@ -773,6 +773,119 @@ h3.auto, h3.create-site {
 
 
 
+@media screen and (max-width: 320px){ //phones Iphone 5
+    .container{
+        width: 95%;
+    }
+
+    .header-information__contain{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav{
+        width: 45%;
+    }
+    ul.menu{
+        width: 100%;
+    }
+
+    .zero-one__container{
+       display: flex;
+       align-items:center;
+        height: 1920px;
+    }
+
+    ul.wheels{
+        flex-direction: column;
+        align-items: center;
+        height: 1000px;
+    }
+    .service-zero__two-left{
+        display: flex;
+        justify-content: center;
+    }
+    .actions-info{
+        height: 740px;
+    }
+    .act-car{
+        height: 600px;
+    }
+    .section-slider{
+        height: 700px;
+    }
+    .actions-info__title{
+        height: 35%;
+    }
+    .sales{
+        height: 240px;
+    }
+    .left-shooter__link{
+        bottom: 0;
+    }
+    .right-shooter__link{
+        bottom: 0;
+    }
+
+    .zero-one__service, .zero-two__service, .zero-three__service, .zero-four__service{
+        font-size: 20px;
+    }
+    .zero-three__text-mid{
+        width: 120px;
+    }
+
+    .zero-four__info-bottom{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+    }
+    .setvice-zero__two-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .racer-name{
+        font-size: 18px;
+    }
+//////////////////////////////////////////////////////footer
+footer {
+    height: 1170px;
+}
+.footer-top {
+    height: 420px;
+}
+.map-middle__img-li{
+    height:375px;
+}
+.map-separate{
+    height: 250px;
+}
+.map-info-top__footer,.map-info-middle__footer,.map-info-bottom__footer{
+    height:125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.position-pict__footer{
+    height: 70px;
+}
+
+.footer-middle {
+    height: 950px;
+}
+
+
+.burger-footer{
+    width: 100%;
+}
+.footer-top{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -780,5 +893,23 @@ h3.auto, h3.create-site {
 
 
 
-}   
+    
 
+    
+ } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
