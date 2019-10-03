@@ -18,11 +18,11 @@
           <div class="loader--face">
             <!-- Loader face smile-->
             <svg class="loader--face--smile" viewBox="25 25 50 50">
-              <circle cx="50" cy="50" r="20" fill="none" stroke="#64FFFE" stroke-width="2"></circle>
+              <circle cx="50" cy="50" r="20" fill="none" stroke="#45fcee" stroke-width="2"></circle>
             </svg>
             <!-- ./Loader face smile-->
             <!-- Loader face eyes-->
-            <div class="loader--face--eyes"><span></span><span></span></div>
+            <div class="loader--face--eyes"><span></span><span></span><span></span><span></span></div>
           </div>
         </div>
       </div>
@@ -54,19 +54,15 @@
     </div>
     <div class="overlay-form">
       <div class="pop-up__service-form">
-        <h2 class="review">ЧТОБЫ ЗАКАЗАТЬ УСЛУГУ:</h2>
+        <h2 class="review">ЧТОБЫ ЗАКАЗАТЬ ЗВОНОК:</h2>
         <form class="postcard" action="">
           <div class="form-row">
             <label for="name">Ваше имя</label>
             <input id="name" type="text" required=""/>
           </div>
           <div class="form-row">
-            <label for="email">Ваш Email</label>
-            <input id="email" type="email" required=""/>
-          </div>
-          <div class="form-row">
-            <label for="message">Ваше сообщение</label>
-            <textarea id="message" rows="5" required=""></textarea>
+            <label for="tel">Ваш телефон</label>
+            <input id="phone" type="tel" required=""/>
           </div>
           <div class="form-row">
             <input type="submit" value="Отправить сообщение"/>
@@ -106,314 +102,306 @@
       <div class="fix-order">
         <div class="fix-order__form">
           <div class="fix-order__add">
-            <header> 
-              <div class="container">
-                <div class="header-information__contain">
-                  <div class="header-information">
-                    <div class="header-left">
-                      <div class="city">
-                        <div class="position-pict"><a class="link-header__logo" href=""><img class="city-logo" src="static/img/header-first.png" alt=""/></a></div>
-                        <p class="header-text">г. Челябинск, ул. Краснопольский проспект 1/2</p>
+            <div class="fix-order__form-disc">
+              <header> 
+                <div class="container">
+                  <div class="header-information__contain">
+                    <div class="header-information">
+                      <div class="header-left">
+                        <div class="city">
+                          <div class="position-pict"><img class="city-logo" src="static/img/header-first.png" alt=""/></div>
+                          <p class="header-text">г. Челябинск, ул. Краснопольский проспект 1/2</p>
+                        </div>
+                        <div class="timetable">
+                          <div class="position-pict"><img class="time-logo" src="static/img/header-second.png" alt=""/></div>
+                          <p class="header-text">График работы: с 9:00 до 20:00</p>
+                        </div>
                       </div>
-                      <div class="timetable">
-                        <div class="position-pict"><a class="link-header__logo" href=""><img class="time-logo" src="static/img/header-second.png" alt=""/></a></div>
-                        <p class="header-text">График работы: с 9:00 до 20:00</p>
+                      <div class="header-right">
+                        <div class="call">
+                          <div class="position-pict"><img class="call-logo" src="static/img/header-third.png" alt=""/></div><a class="link-tel" href="tel: +79227442010"> 
+                            <p class="mobile">+7 (922) 744-20-10 </p></a>
+                          <div class="order-call">
+                            <h2 class="call-phone">Заказать звонок</h2>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div class="header-right">
-                      <div class="call">
-                        <div class="position-pict"><a class="link-header__logo" href=""><img class="call-logo" src="static/img/header-third.png" alt=""/></a></div>
-                        <p class="mobile">+7 (922) 744-20-10 </p>
-                        <div class="order-call"><a class="call-phone" href="">Заказать звонок</a></div>
-                      </div>
+                    <div class="position-wheel__header"><a class="wheel" href=""><img class="right-wheels" src="static/img/rectangle-wheel.png" alt=""/></a></div>
+                  </div>
+                </div>
+              </header>
+              <section-rectangle>
+                <div class="container">
+                  <div class="rec-content">
+                    <div class="position-wheel"><a class="wheel" href=""><img class="right-wheels" src="static/img/rectangle-wheel.png" alt=""/></a></div>
+                    <div class="menu-burger"><a class="touch-menu" href="#"><span class="line"></span></a></div>
+                    <nav>
+                      <ul class="menu">
+                        <li class="service-header"> <a class="header-menu" href="">Наши услуги</a></li>
+                        <li class="works-header"><a class="header-menu" href="">Наши работы</a></li>
+                        <li class="about-company__header"><a class="header-menu" href="">О компании</a></li>
+                        <li class="price-list__header"><a class="header-menu" href="">Прайс-лист</a></li>
+                        <li class="actions-header__header"><a class="header-menu" href="">Акции</a></li>
+                        <li class="partners-header__header"><a class="header-menu" href="">Партнеры</a></li>
+                        <li class="feedback-header"><a class="header-menu" href="">Отзывы</a></li>
+                        <li class="contacts-header"><a class="header-menu" href="">Контакты</a></li>
+                      </ul>
+                    </nav>
+                    <div class="btn-order"> 
+                      <button class="order-serv"><span class="activate">ЗАКАЗАТЬ УСЛУГУ</span></button>
                     </div>
                   </div>
-                  <div class="position-wheel__header"><a class="wheel" href=""><img class="right-wheels" src="static/img/rectangle-wheel.png" alt=""/></a></div>
                 </div>
-              </div>
-            </header>
-            <section-rectangle>
-              <div class="container">
-                <div class="rec-content">
-                  <div class="position-wheel"><a class="wheel" href=""><img class="right-wheels" src="static/img/rectangle-wheel.png" alt=""/></a></div>
-                  <div class="menu-burger"><a class="touch-menu" href="#"><span class="line"></span></a></div>
-                  <nav>
-                    <ul class="menu">
-                      <div class="menu-horizontal">
-                        <ul class="menu-horizontal__menu">
-                          <li class="service-header"> <a class="header-menu" href="">Наши услуги</a>
-                            <ul class="menu-down">
-                              <li class="menu-down__li"><a class="menu-down___link" href="#">Услуга 1</a></li>
-                              <li class="menu-down__li"><a class="menu-down___link" href="#">Услуга 2</a></li>
-                              <li class="menu-down__li"><a class="menu-down___link" href="#">Услуга 3</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </div>
-                      <li class="works-header"><a class="header-menu" href="">Наши работы</a></li>
-                      <li class="about-company__header"><a class="header-menu" href="">О компании</a></li>
-                      <li class="price-list__header"><a class="header-menu" href="">Прайс-лист</a></li>
-                      <li class="actions-header__header"><a class="header-menu" href="">Акции</a></li>
-                      <li class="partners-header__header"><a class="header-menu" href="">Партнеры</a></li>
-                      <li class="feedback-header"><a class="header-menu" href="">Отзывы</a></li>
-                      <li class="contacts-header"><a class="header-menu" href="">Контакты</a></li>
-                    </ul>
-                  </nav>
-                  <div class="btn-order"> 
-                    <button class="activate">
-                      <h2 class="order-serv" href="">ЗАКАЗАТЬ УСЛУГУ</h2>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </section-rectangle><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+              </section-rectangle><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="static/js/popup-service.js"></script>
-            <div class="container">
-              <div class="moto-wheels">
-                <div class="moto-wheels__top">
-                  <div class="moto-wheels__top__left-contain">
-                    <div class="moto-wheels__top-left">
-                      <h3 class="moto-bg">Покраска мото дисков</h3>
-                      <div class="moto-bt__text"> 
-                        <p>Компания Right Wheels — специализированный сервисный центр по профессиональному ремонту литых, стальных и кованых дисков.</p>
-                        <p>Компания была основана в 2013 году и является динамично развивающейся компанией специализирующейся на ремонте литых дискови шин. </p>
-                        <p>Компания была основана в 2013 году и является динамично развивающейся компанией специализирующейся на ремонте литых дискови шин.</p>
-                      </div>
-                      <div class="btn-order__form"> 
-                        <button class="activate-form">
-                          <h2 class="order-serv">ЗАКАЗАТЬ УСЛУГУ</h2>
-                        </button>
+              <div class="container">
+                <div class="moto-wheels">
+                  <div class="moto-wheels__top">
+                    <div class="moto-wheels__top__left-contain">
+                      <div class="moto-wheels__top-left">
+                        <h3 class="moto-bg">Покраска мото дисков</h3>
+                        <div class="moto-bt__text"> 
+                          <p>Компания Right Wheels — специализированный сервисный центр по профессиональному ремонту литых, стальных и кованых дисков.</p>
+                          <p>Компания была основана в 2013 году и является динамично развивающейся компанией специализирующейся на ремонте литых дискови шин. </p>
+                          <p>Компания была основана в 2013 году и является динамично развивающейся компанией специализирующейся на ремонте литых дискови шин.</p>
+                        </div>
+                        <div class="btn-order__form"> 
+                          <button class="activate-form">
+                            <h2 class="order-serv">ЗАКАЗАТЬ УСЛУГУ</h2>
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="moto-wheels__top__right-contain">
-                    <div class="moto-wheels__top-right">
-                      <div class="moto-pct__position"><img class="moto-wheel__pct" src="static/img/moto-bg__wheel.png" alt=""/></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="moto-wheels__middle">
-                  <div class="moto-wheels__middle-table">
-                    <table class="moto-wheels__price-top"> 
-                      <caption>Порошковая покраска дисков
-                        <tr> 
-                          <th class="th-left__position">Диски</th>
-                          <th>Покраска в один цвет</th>
-                          <th>Покраска с кантом</th>
-                          <th>Покраска в два цвета</th>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r">R12-R14</td>
-                          <td class="td-center__position">6 000 ₽</td>
-                          <td class="td-center__position">от 10 000 ₽</td>
-                          <td class="td-center__position">от 12 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r">R15</td>
-                          <td class="td-center__position">7 000 ₽</td>
-                          <td class="td-center__position">от 11 000 ₽</td>
-                          <td class="td-center__position">6 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r">R16</td>
-                          <td class="td-center__position">8 000 ₽</td>
-                          <td class="td-center__position">от 12 000 ₽</td>
-                          <td class="td-center__position">7 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r">R17</td>
-                          <td class="td-center__position">9 000 ₽</td>
-                          <td class="td-center__position">от 13 000 ₽</td>
-                          <td class="td-center__position">8 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r">R18</td>
-                          <td class="td-center__position">10 000 ₽</td>
-                          <td class="td-center__position">от 14 000 ₽</td>
-                          <td class="td-center__position">9 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r">R19</td>
-                          <td class="td-center__position">11 000 ₽</td>
-                          <td class="td-center__position">от 15 000 ₽</td>
-                          <td class="td-center__position">10 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r">R20</td>
-                          <td class="td-center__position">12 000 ₽</td>
-                          <td class="td-center__position">от 16 000 ₽</td>
-                          <td class="td-center__position">11 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r">R21</td>
-                          <td class="td-center__position">13 000 ₽</td>
-                          <td class="td-center__position">от 17 000 ₽</td>
-                          <td class="td-center__position">12 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r">R22</td>
-                          <td class="td-center__position">14 000 ₽</td>
-                          <td class="td-center__position">от 18 000 ₽</td>
-                          <td class="td-center__position">13 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r" colspan="2">Клапанная крышка</td>
-                          <td class="td-border__position"></td>
-                          <td class="td-left__position">от 800 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r" colspan="2">Диски (мопед) 2 шт.</td>
-                          <td class="td-left__position"></td>
-                          <td class="td-left__position">2 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r" colspan="2">Диски (мото) 2 шт.</td>
-                          <td class="td-left__position"></td>
-                          <td class="td-left__position">3 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r" colspan="2">Суппорта 2 шт.</td>
-                          <td class="td-left__position"></td>
-                          <td class="td-left__position">1 500 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r" colspan="2">Суппорта 2 шт. с нанесением логотипа</td>
-                          <td class="td-border__position"></td>
-                          <td class="td-left__position">2 500 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r" colspan="2">Суппорта 4 шт.</td>
-                          <td class="td-left__position"></td>
-                          <td class="td-left__position">3 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r" colspan="2">Суппорта 4 шт. с нанесением логотипа</td>
-                          <td class="td-left__position"></td>
-                          <td class="td-left__position">4 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r" colspan="2">Велосипедная рама </td>
-                          <td class="td-left__position"></td>
-                          <td class="td-left__position">от 1 200 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r" colspan="2">Выпресовка подшипников</td>
-                          <td class="td-left__position"></td>
-                          <td class="td-left__position">от 500 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r" colspan="2">Покраска центров R16-R18 (с маскировкой посадочных мест)</td>
-                          <td class="td-left__position"></td>
-                          <td class="td-left__position">от 1 000 ₽</td>
-                        </tr>
-                        <tr>
-                          <td class="td-left__position-r" colspan="2">Покраска центров R19-R20 (с маскировкой посадочных мест)</td>
-                          <td class="td-left__position"></td>
-                          <td class="td-left__position">от 1 500 ₽</td>
-                        </tr>
-                      </caption>
-                    </table>
-                  </div>
-                </div>
-                <div class="moto-wheels__bottom">
-                  <ul class="moto-serv__top">
-                    <li class="moto-serv__text">
-                      <p>Пескоструйная обработка (мы не берем наценку за удаление порошкового покрытия!)</p>
-                    </li>
-                    <li class="moto-serv__text">
-                      <p>Нанесение грунтового слоя.</p>
-                    </li>
-                    <li class="moto-serv__text">
-                      <p>Нанесение основного цвета.</p>
-                    </li>
-                    <li class="moto-serv__text">
-                      <p>Нанесение порошкового лака (на выбор три вида лака, глянцевый, полу матовый, супер матовый).           </p>
-                    </li>
-                  </ul>
-                  <ul class="moto-serv__down">
-                    <li class="moto-serv__text">
-                      <p>* Цены указанны за комплект (4 диска)</p>
-                    </li>
-                    <li class="moto-serv__down">
-                      <p>**Гарантия на порошковую покраску дисков 2 года.</p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="moto-wheels__about">
-                  <div class="service-zero__one">
-                    <div class="service-zero__one-cap">
-                      <h3 class="zero-one__text">0</h3>
-                      <h3 class="zero-one__text-mid">1</h3>
-                      <div class="service-text">
-                        <h3 class="zero-one__service">НАШИ РАБОТЫ</h3>
+                    <div class="moto-wheels__top__right-contain">
+                      <div class="moto-wheels__top-right">
+                        <div class="moto-pct__position"><img class="moto-wheel__pct" src="static/img/moto-bg__wheel.png" alt=""/></div>
                       </div>
                     </div>
                   </div>
-                  <div class="moto-wheels_one-content">
-                    <div class="section-slider">
-                      <div class="slider-three">
-                        <ul class="moto-wheels">
-                          <li class="moto-slide">
-                            <div class="moto-wheel__before">
-                              <h2 class="wheel-line lntxt">До</h2>
-                            </div>
-                            <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-1.png" alt=""/></a></div>
-                          </li>
-                          <li class="moto-slide">
-                            <div class="moto-wheel__after">
-                              <h2 class="wheel-line lntxt">После         </h2>
-                            </div>
-                            <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-2.png" alt=""/></a></div>
-                          </li>
-                        </ul>
-                        <ul class="moto-wheels">
-                          <li class="moto-slide">
-                            <div class="moto-wheel__before">
-                              <h2 class="wheel-line lntxt">До</h2>
-                            </div>
-                            <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-1.png" alt=""/></a></div>
-                          </li>
-                          <li class="moto-slide">
-                            <div class="moto-wheel__after">
-                              <h2 class="wheel-line lntxt">После         </h2>
-                            </div>
-                            <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-2.png" alt=""/></a></div>
-                          </li>
-                        </ul>
-                        <ul class="moto-wheels">
-                          <li class="moto-slide">
-                            <div class="moto-wheel__before">
-                              <h2 class="wheel-line lntxt">До</h2>
-                            </div>
-                            <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-1.png" alt=""/></a></div>
-                          </li>
-                          <li class="moto-slide">
-                            <div class="moto-wheel__after">
-                              <h2 class="wheel-line lntxt">После         </h2>
-                            </div>
-                            <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-2.png" alt=""/></a></div>
-                          </li>
-                        </ul>
-                        <ul class="moto-wheels">
-                          <li class="moto-slide">
-                            <div class="moto-wheel__before">
-                              <h2 class="wheel-line lntxt">До</h2>
-                            </div>
-                            <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-1.png" alt=""/></a></div>
-                          </li>
-                          <li class="moto-slide">
-                            <div class="moto-wheel__after">
-                              <h2 class="wheel-line lntxt">После         </h2>
-                            </div>
-                            <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-2.png" alt=""/></a></div>
-                          </li>
-                        </ul>
-                      </div>
+                  <div class="moto-wheels__middle">
+                    <div class="moto-wheels__middle-table">
+                      <table class="moto-wheels__price-top"> 
+                        <caption>Порошковая покраска дисков
+                          <tr> 
+                            <th class="th-left__position">Диски</th>
+                            <th>Покраска в один цвет</th>
+                            <th>Покраска с кантом</th>
+                            <th>Покраска в два цвета</th>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" height="50" width="25%">R12-R14</td>
+                            <td class="td-center__position" height="50" width="25%">6 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">от 10 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">от 12 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" height="50" width="25%">R15</td>
+                            <td class="td-center__position" height="50" width="25%">7 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">от 11 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">6 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" height="50" width="25%">R16</td>
+                            <td class="td-center__position" height="50" width="25%">8 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">от 12 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">7 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" height="50" width="25%">R17</td>
+                            <td class="td-center__position" height="50" width="25%">9 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">от 13 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">8 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" height="50" width="25%">R18</td>
+                            <td class="td-center__position" height="50" width="25%">10 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">от 14 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">9 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" height="50" width="25%">R19</td>
+                            <td class="td-center__position" height="50" width="25%">11 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">от 15 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">10 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" height="50" width="25%">R20</td>
+                            <td class="td-center__position" height="50" width="25%">12 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">от 16 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">11 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" height="50" width="25%">R21</td>
+                            <td class="td-center__position" height="50" width="25%">13 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">от 17 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">12 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" height="50" width="25%">R22</td>
+                            <td class="td-center__position" height="50" width="25%">14 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">от 18 000 ₽</td>
+                            <td class="td-center__position" height="50" width="25%">13 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" colspan="2" height="50" width="50%">Клапанная крышка</td>
+                            <td class="td-border__position" height="50" width="25%"></td>
+                            <td class="td-left__position" height="50" width="25%">от 800 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" colspan="2" height="50" width="50%">Диски (мопед) 2 шт.</td>
+                            <td class="td-left__position" height="50" width="25%"></td>
+                            <td class="td-left__position" height="50" width="25%">2 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" colspan="2" height="50" width="50%">Диски (мото) 2 шт.</td>
+                            <td class="td-left__position" height="50" width="25%"></td>
+                            <td class="td-left__position" height="50" width="25%">3 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" colspan="2" height="50" width="50%">Суппорта 2 шт.</td>
+                            <td class="td-left__position" height="50" width="25%"></td>
+                            <td class="td-left__position" height="50" width="25%">1 500 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" colspan="2" height="50" width="50%">Суппорта 2 шт. с нанесением логотипа</td>
+                            <td class="td-border__position" height="50" width="25%"></td>
+                            <td class="td-left__position" height="50" width="25%">2 500 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" colspan="2" height="50" width="50%">Суппорта 4 шт.</td>
+                            <td class="td-left__position" height="50" width="25%"></td>
+                            <td class="td-left__position" height="50" width="25%">3 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" colspan="2" height="50" width="50%">Суппорта 4 шт. с нанесением логотипа</td>
+                            <td class="td-left__position" height="50" width="25%"></td>
+                            <td class="td-left__position" height="50" width="25%">4 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" colspan="2" height="50" width="50%">Велосипедная рама </td>
+                            <td class="td-left__position" height="50" width="25%"></td>
+                            <td class="td-left__position" height="50" width="25%">от 1 200 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" colspan="2" height="50" width="50%">Выпресовка подшипников</td>
+                            <td class="td-left__position" height="50" width="25%"></td>
+                            <td class="td-left__position" height="50" width="25%">от 500 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" colspan="2" height="50" width="50%">Покраска центров R16-R18 (с маскировкой посадочных мест)</td>
+                            <td class="td-left__position" height="50" width="25%"></td>
+                            <td class="td-left__position" height="50" width="25%">от 1 000 ₽</td>
+                          </tr>
+                          <tr>
+                            <td class="td-left__position-r" colspan="2" height="50" width="50%">Покраска центров R19-R20 (с маскировкой посадочных мест)</td>
+                            <td class="td-left__position" height="50" width="25%"></td>
+                            <td class="td-left__position" height="50" width="25%">от 1 500 ₽</td>
+                          </tr>
+                        </caption>
+                      </table>
                     </div>
                   </div>
-                  <div class="moto-wheels__shooters">
-                    <div class="moto-left__shooter"><a class="left-shooter__moto-link" href="" src="static/img/moto-shout.png" alt=""><span></span></a></div>
-                    <div class="moto-right__shooter"><a class="right-shooter__moto-link" href=""><span></span></a></div>
+                  <div class="moto-wheels__bottom">
+                    <ul class="moto-serv__top">
+                      <li class="moto-serv__text">
+                        <p>Пескоструйная обработка (мы не берем наценку за удаление порошкового покрытия!)</p>
+                      </li>
+                      <li class="moto-serv__text">
+                        <p>Нанесение грунтового слоя.</p>
+                      </li>
+                      <li class="moto-serv__text">
+                        <p>Нанесение основного цвета.</p>
+                      </li>
+                      <li class="moto-serv__text">
+                        <p>Нанесение порошкового лака (на выбор три вида лака, глянцевый, полу матовый, супер матовый).           </p>
+                      </li>
+                    </ul>
+                    <ul class="moto-serv__down">
+                      <li class="moto-serv__text">
+                        <p>* Цены указанны за комплект (4 диска)</p>
+                      </li>
+                      <li class="moto-serv__down">
+                        <p>**Гарантия на порошковую покраску дисков 2 года.</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="moto-wheels__about">
+                    <div class="service-zero__one">
+                      <div class="service-zero__one-cap">
+                        <h3 class="zero-one__text">0</h3>
+                        <h3 class="zero-one__text-mid">1</h3>
+                        <div class="service-text">
+                          <h3 class="zero-one__service">НАШИ РАБОТЫ</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="moto-wheels_one-content">
+                      <div class="section-slider">
+                        <div class="slider-three">
+                          <ul class="moto-wheels">
+                            <li class="moto-slide">
+                              <div class="moto-wheel__before">
+                                <h2 class="wheel-line lntxt">До</h2>
+                              </div>
+                              <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-1.png" alt=""/></a></div>
+                            </li>
+                            <li class="moto-slide">
+                              <div class="moto-wheel__after">
+                                <h2 class="wheel-line lntxt">После         </h2>
+                              </div>
+                              <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-2.png" alt=""/></a></div>
+                            </li>
+                          </ul>
+                          <ul class="moto-wheels">
+                            <li class="moto-slide">
+                              <div class="moto-wheel__before">
+                                <h2 class="wheel-line lntxt">До</h2>
+                              </div>
+                              <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-1.png" alt=""/></a></div>
+                            </li>
+                            <li class="moto-slide">
+                              <div class="moto-wheel__after">
+                                <h2 class="wheel-line lntxt">После         </h2>
+                              </div>
+                              <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-2.png" alt=""/></a></div>
+                            </li>
+                          </ul>
+                          <ul class="moto-wheels">
+                            <li class="moto-slide">
+                              <div class="moto-wheel__before">
+                                <h2 class="wheel-line lntxt">До</h2>
+                              </div>
+                              <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-1.png" alt=""/></a></div>
+                            </li>
+                            <li class="moto-slide">
+                              <div class="moto-wheel__after">
+                                <h2 class="wheel-line lntxt">После         </h2>
+                              </div>
+                              <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-2.png" alt=""/></a></div>
+                            </li>
+                          </ul>
+                          <ul class="moto-wheels">
+                            <li class="moto-slide">
+                              <div class="moto-wheel__before">
+                                <h2 class="wheel-line lntxt">До</h2>
+                              </div>
+                              <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-1.png" alt=""/></a></div>
+                            </li>
+                            <li class="moto-slide">
+                              <div class="moto-wheel__after">
+                                <h2 class="wheel-line lntxt">После         </h2>
+                              </div>
+                              <div class="moto-wheel__before-pct"><a class="st-link" href=""><img class="before-pct" src="static/img/bg-moto__wheels/bg-moto__wheels-2.png" alt=""/></a></div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="moto-wheels__shooters">
+                      <div class="moto-left__shooter"><a class="left-shooter__moto-link" href="" src="static/img/moto-shout.png" alt=""><span></span></a></div>
+                      <div class="moto-right__shooter"><a class="right-shooter__moto-link" href=""><span></span></a></div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -443,8 +431,6 @@
                       <p class="benefit-text">Все работы выполняются в одном месте.</p>
                     </div>
                   </li>
-                </ul>
-                <ul class="benefits-two">
                   <li class="benefit-second">
                     <div class="bn-position"> <img class="bn" src="static/img/hexagon.png" alt=""/></div>
                     <div class="benefit-text">
@@ -490,7 +476,9 @@
                       </div>
                     </div>
                   </div>
-                  <div class="about-service__pct"><img class="red-car" src="static/img/red-car.png" alt=""/></div>
+                  <div class="about-service__pct">
+                    <div class="imgBx"><img class="red-car" src="static/img/red-car/red-car2.png" alt=""/><img class="red-car" src="static/img/red-car/1.png" alt=""/></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -532,8 +520,6 @@
                   <ul class="wheels">
                     <li class="first-wheel"><a class="st-link" href=""><img class="st" src="static/img/service-wheel-1.png" alt=""/></a><a class="style" href="">Покраска дисков</a></li>
                     <li class="second-wheel"><a class="st-link" href=""><img class="st" src="static/img/service-wheel-2.png" alt=""/></a><a class="style" href="">Правка и ремонт дисков</a></li>
-                  </ul>
-                  <ul class="wheels">
                     <li class="third-wheel"><a class="st-link" href=""><img class="st" src="static/img/service-wheel-3.png" alt=""/></a><a class="style" href="">Шиномонтажные услуги</a></li>
                     <li class="fourth-wheel"><a class="st-link" href=""><img class="st" src="static/img/service-wheel-4.png" alt=""/></a><a class="style" href="">Дополнительные услуги</a></li>
                   </ul>
@@ -541,25 +527,25 @@
               </div>
             </div>
             <div class="map">
+              <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2276.5695597594354!2d61.304559016208366!3d55.20828708041125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c5935c4b270f8f%3A0x8d07cc78811f686!2z0JrRgNCw0YHQvdC-0L_QvtC70YzRgdC60LjQuSDQv9GA0L7RgdC_LiwgMSwg0KfQtdC70Y_QsdC40L3RgdC6LCDQp9C10LvRj9Cx0LjQvdGB0LrQsNGPINC-0LHQuy4sIDQ1NDAxNA!5e0!3m2!1sru!2sru!4v1556044642086!5m2!1sru!2sru" frameborder="0" style="border:0" allowfullscreen=""></iframe>
               <div class="container">
                 <div class="map-service__position">
                   <ul class="map-info">
                     <li class="map-info-top">
-                      <div class="map-info-position"><a class="map-link" href=""><img class="location" src="static/img/location-map.png" alt=""/></a>
+                      <div class="map-info-position"><img class="location" src="static/img/location-map.png" alt=""/>
                         <div class="city-info">
                           <h3 class="city__map">г. Челябинск, ул. Краснопольский проспект 1/2</h3>
                         </div>
                       </div>
                     </li>
                     <li class="map-info-middle">
-                      <div class="map-info-position"><a class="map-link" href=""><img class="phone" src="static/img/phone-map.png" alt=""/></a>
-                        <div class="call-number">
-                          <h3 class="number__map">+7 (922) 744-20-10</h3>
-                        </div>
+                      <div class="map-info-position"><img class="phone" src="static/img/phone-map.png" alt=""/>
+                        <div class="call-number"><a class="link-tel" href="tel: +79227442010">
+                            <h3 class="number__map">+7 (922) 744-20-10</h3></a></div>
                       </div>
                     </li>
                     <li class="map-info-bottom">
-                      <div class="map-info-position"><a class="map-link" href=""><img class="clock" src="static/img/clock-map.png" alt=""/></a>
+                      <div class="map-info-position"><img class="clock" src="static/img/clock-map.png" alt=""/>
                         <div class="timetable-works">
                           <h3 class="working-time__map">График работы: с 9:00 до 20:00</h3>
                         </div>
@@ -574,7 +560,7 @@
                 <div class="footer-content__position">
                   <div class="footer-content">
                     <div class="footer-top">
-                      <div class="right-wheel__size"> <a href="#">
+                      <div class="right-wheel__size"> <a href="https://vibirai.ru/avto/right_wheels_remont_shin_i_diskov-711341">
                           <div class="joha">RIGHT WHEELS</div></a></div>
                       <div class="burger-footer"><a class="touch-foot" href="#"><span class="line"></span></a></div>
                       <div class="menu-color">
@@ -598,20 +584,21 @@
                           <div class="right-wheel__size-middle"><a class="wheel" href=""><img class="right-wheel__middle" src="static/img/rectangle-wheel.png" alt=""/></a></div>
                           <div class="map-separate">
                             <li class="map-info-top__footer">
-                              <div class="position-pict__footer"><a class="map-link" href=""><img class="phone-footer" src="static/img/phone-map.png" alt=""/></a></div>
-                              <div class="call-number">
-                                <h3 class="number__footer">+7 (922) 744-20-10</h3>
+                              <div class="position-pict__footer"><img class="phone-footer" src="static/img/phone-map.png" alt=""/></div>
+                              <div class="call-number"><a class="link-tel" href="tel: +79227442010">
+                                  <h3 class="number__footer">+7 (922) 744-20-10</h3></a></div>
+                              <div class="order-call__footer">
+                                <h2 class="call-phone" href="">Заказать звонок</h2>
                               </div>
-                              <div class="order-call__footer"><a class="call-phone" href="">Заказать звонок</a></div>
                             </li>
                             <li class="map-info-middle__footer">
-                              <div class="position-pict__footer"><a class="map-link" href=""><img class="location-footer" src="static/img/location-map.png" alt=""/></a></div>
+                              <div class="position-pict__footer"><img class="location-footer" src="static/img/location-map.png" alt=""/></div>
                               <div class="city-info">
                                 <h3 class="city__footer">г. Челябинск, ул. Краснопольский проспект 1/2</h3>
                               </div>
                             </li>
                             <li class="map-info-bottom__footer">
-                              <div class="position-pict__footer"><a class="map-link" href=""><img class="clock-footer" src="static/img/clock-map.png" alt=""/></a></div>
+                              <div class="position-pict__footer"><img class="clock-footer" src="static/img/clock-map.png" alt=""/></div>
                               <div class="timetable-works">
                                 <h3 class="works-time__footer">График работы: с 9:00 до 20:00</h3>
                               </div>
@@ -621,11 +608,12 @@
                       </ul>
                     </div>
                     <div class="footer-bottom">
-                      <div class="footer-bottom__autoservice"><a href="#">
-                          <h3 class="auto">© Автосервис, 2018</h3></a></div>
-                      <div class="footer-bottom__create"><a href="#">
+                      <div class="footer-bottom__autoservice">
+                        <h3 class="auto">© Автосервис, 2018</h3>
+                      </div>
+                      <div class="footer-bottom__create"><a href="https://reactive-promotion.ru/">
                           <h3 class="create-site">Создание и продвижение сайта</h3></a>
-                        <div class="logo-promotion__position"><a class="prom" href=""><img class="logo-promotion" src="static/img/footer-bottom__promotion.png" alt=""/></a></div>
+                        <div class="logo-promotion__position"><a class="prom" href="https://reactive-promotion.ru/"><img class="logo-promotion" src="static/img/footer-bottom__promotion.png" alt=""/></a></div>
                       </div>
                     </div>
                   </div>

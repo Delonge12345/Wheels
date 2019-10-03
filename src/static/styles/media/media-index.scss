@@ -6,6 +6,7 @@
     width: 90%;
    
 }
+
 .timetable {
     width: 50%;
 }
@@ -20,11 +21,11 @@ ul.menu {
 
 .left-shooter__link {
   left: 3%;
-  bottom: 50%;
+  bottom: 25%;
 }
 .right-shooter__link{
     right: 3%;
-    bottom: 50%;
+    bottom: 25%;
 }
 .section-actions__background {
     background-position: -415px -100px;
@@ -34,19 +35,20 @@ ul.menu {
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 1000px;
+    height: 900px;
 }
 .wheels {
-    display: flex;
-    justify-content: space-around;
-  height: 350px;
+display: flex;
+flex-wrap: wrap;
+
+  
 }
 
 .repair {
     width: 100%;
 }
 .service-zero__one-wheels {
-    height: 80%;
+    height: 100%;
     flex-direction: column;
 }
 
@@ -91,12 +93,20 @@ ul.menu {
 
 .map {
   height: 590px;
-  background-position: -325px 0px;
+ 
+}
+.map-service__position{
+    height: 270px;
+    bottom: 35px;
+    left: 45%;
+    
+    
+    // height: 362px;
+    // width: 570px;
+    
 }
 
-ul.map-info {
-height: 270px;
-}
+
 
 .map-separate{
     width: 101%;
@@ -111,7 +121,9 @@ ul.menu-footer {
 }
 
 
-
+.zero-four__partners{
+    width: 570px;
+}
 
 
 
@@ -143,7 +155,14 @@ ul.menu-footer {
     .container{
         width: 750px;
     }
-    
+    .shadow{
+        width: 200px;
+    }
+    .zero-four__section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .header-left{
         width: 80%;
     }
@@ -182,7 +201,9 @@ ul.menu-footer {
     .section-actions__background {
         background-position: -520px -100px;
     }
-
+    .zero-one__container{
+        height: 900px;
+    }
     .setvice-zero__two-right {
         width: 55%;
     }
@@ -191,7 +212,7 @@ ul.menu-footer {
         align-items: center;
     }
     .repair {
-        height: 400px;
+        height: 360px;
         
     }
     .service-zero__four-cap__slide{
@@ -223,8 +244,18 @@ ul.menu-footer {
     .zero-four__partners{
         align-items: center;
         justify-content: space-between;
-        width: 90%;
+        width: 480px;
     }
+
+
+ul.zero-four__block{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
     .zero-four__form {
       
         justify-content: center;
@@ -250,7 +281,7 @@ ul.menu-footer {
     }
     
     .zero-one__service,.zero-two__service,.zero-three__service,.zero-four__service{
-        font-size: 31px;
+        font-size: 30px;
     
     }
     
@@ -290,7 +321,7 @@ ul.menu-footer {
 }
 
 .zero-four__questions {
-    height: 500px;
+    height: 450px;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -310,10 +341,7 @@ ul.menu-footer {
     width: 30px;
 }
 
-ul.map-info {
-    height: 250px;
-    width: 525px;
-}
+
 
 .right-wheel__size {
     width: 150px;
@@ -349,7 +377,7 @@ ul.map-info {
     height: 250px;
 }
 .footer-middle{
-    height: 450px;
+    height: 230px;
 }
 li.map-info-top__footer, li.map-info-middle__footer, li.map-info-bottom__footer{
     width: 390px;
@@ -370,23 +398,49 @@ li.map-info-top__footer, li.map-info-middle__footer, li.map-info-bottom__footer{
     height: 100%;
 }
 
-
+.map-service__position{
+    bottom: 35px;
+    left: 30%;
+    min-width: 525px;
+    height: 250px;
+    
+    
+    // height: 362px;
+    // width: 570px;
+    
+}
 }
 
 @media screen and (max-width: 768px){ //tablets
     .container{
         width: 480px;
     }
-  
-
+    .footer-content__position{
+        height: 90%;
+    }
+  .footer-middle{
+      height: 330px;
+  }
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
     .zero-four__info-top {
       
         height: 124px;
     }
-
+.zero-two__container{
+    flex-direction: column;
+    align-items: center;
+}
+.service-zero__two-left{
+    width: 100%;
+}
 .rec-content {
-    height: 170px;
+    height: 155px;
     display: flex;
     
     justify-content: space-between;
@@ -398,23 +452,43 @@ li.map-info-top__footer, li.map-info-middle__footer, li.map-info-bottom__footer{
 }
 
 ul.menu{
-    width: 61%;
+    width: 73%;
+}
+
+.left-shooter__link {
+    left: 3%;
+    bottom: 0%;
+  }
+  .right-shooter__link{
+      right: 3%;
+      bottom: 0%;
+  }
+
+
+
+
+.zero-one__container{
+    height: 1500px;
+}
+
+
+.wheels{
+    justify-content: center;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+.map-service__position{
+    height:210px;
+    min-width: 400px;
+    bottom: 35px;
+    left: 35%;
+    
+    // height: 362px;
+    // width: 570px;
+    
+}
 
 
 
@@ -517,7 +591,7 @@ ul.menu {
 }
 
 .repair {
-    height: 335px;
+    height: 300px;
 }
 
 ul.benefits-one, ul.benefits-two {
@@ -536,10 +610,12 @@ ul.benefits-one, ul.benefits-two {
 
 .zero-one__text,.zero-one__text-mid,.zero-two__text,.zero-two__text-mid,.zero-three__text,.zero-three__text-mid,.zero-four__text,.zero-four__text-mid{
     font-size: 135px;
+    min-width: 75px;
 }
 
 .zero-one__service, .zero-two__service, .zero-three__service, .zero-four__service {
     font-size: 22px;
+    
 }
 
 .zero-three__container {
@@ -585,15 +661,11 @@ ul.benefits-one, ul.benefits-two {
 
 
 .zero-four__partners{
-    width: 100%;
+    width: 485px;
     display: flex;
     justify-content: center;
 }
 
-ul.map-info {
-    height: 210px;
-    width: 400px;
-}
 
 
 .city__map, .number__map, .working-time__map {
@@ -660,6 +732,13 @@ h3.auto, h3.create-site {
     }
     
 
+  
+    .map-service__position {
+        height: 150px;
+        min-width: 320px;
+        bottom: 20px;
+        left: 20%;
+    }
     .section-actions__background {
        
         -webkit-clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 100% 0%, 100% 60%, 50% 88%, 0% 60%, 0 95%);
@@ -677,11 +756,11 @@ h3.auto, h3.create-site {
 
     .left-shooter__link {
         left: 3%;
-        bottom: -25%;
+        bottom: -35%;
       }
       .right-shooter__link{
           right: 3%;
-          bottom: -25%;
+          bottom: -35%;
       }
 
       .st {
@@ -715,11 +794,21 @@ h3.auto, h3.create-site {
         flex-direction: column;
        
     }
-
+.service-zero__main{
+    height: 100%;
+}
     .zero-four__container {
-        height: 1190px;
+        
+        height: 1500px;
     }
 
+    .zero-four__partners{
+        width: 415px;
+    }
+    ul.zero-four__block{
+        height: 700px;
+        justify-content: center;
+    }
 .service-zero__right-position{
     width: 100%;
 }
@@ -727,17 +816,15 @@ h3.auto, h3.create-site {
     justify-content: center;
 }
 .zero-three__container {
-    min-height: 450px;
+   
+    min-height: 710px;
 }
 
 .map {
     height: 455px;
     background-position: -396px 0px;
 }
-ul.map-info {
-    height: 150px;
-    width: 320px;
-}
+
 .location, .phone, .clock {
     height: 15px;
     width: 15px;
@@ -751,9 +838,10 @@ h3.auto, h3.create-site {
     font-size: 14px;
 }
 .footer-bottom {
-    height: 150px;
-  flex-direction: column;
+    height: 190px;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     
 }
 
@@ -762,7 +850,7 @@ h3.auto, h3.create-site {
 }
 .footer-bottom__create {
     flex-direction: column;
-    height: 80px;
+    height: 55px;
     justify-content: space-between;
  
 }
@@ -777,7 +865,16 @@ h3.auto, h3.create-site {
     .container{
         width: 95%;
     }
-
+    .zero-three__container {
+   
+        min-height: 610px;
+    }
+    .map-service__position {
+        height: 105px;
+        min-width: 100%;
+        bottom: 110px;
+        left: -5%;
+    }
     .header-information__contain{
         flex-direction: column;
         align-items: center;
@@ -793,13 +890,13 @@ h3.auto, h3.create-site {
     .zero-one__container{
        display: flex;
        align-items:center;
-        height: 1920px;
+        height: 1500px;
     }
 
     ul.wheels{
         flex-direction: column;
         align-items: center;
-        height: 1000px;
+        height: 1300px;
     }
     .service-zero__two-left{
         display: flex;
@@ -809,22 +906,22 @@ h3.auto, h3.create-site {
         height: 740px;
     }
     .act-car{
-        height: 600px;
+        height: 630px;
     }
     .section-slider{
         height: 700px;
     }
     .actions-info__title{
-        height: 35%;
+        height: 50%;
     }
     .sales{
         height: 240px;
     }
     .left-shooter__link{
-        bottom: 0;
+        bottom: -200px;
     }
     .right-shooter__link{
-        bottom: 0;
+        bottom:-200px;
     }
 
     .zero-one__service, .zero-two__service, .zero-three__service, .zero-four__service{
@@ -851,10 +948,10 @@ h3.auto, h3.create-site {
     }
 //////////////////////////////////////////////////////footer
 footer {
-    height: 1170px;
+    height: 830px;
 }
 .footer-top {
-    height: 420px;
+    height: 240px;
 }
 .map-middle__img-li{
     height:375px;

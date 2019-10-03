@@ -24,6 +24,7 @@
         width: 750px;
     }
     .about-company__top{
+        height: 1045px;
         align-self: center;
         flex-direction: column;
     }
@@ -66,7 +67,9 @@
     .container{
         width: 95%;
     }
-    
+    .about-company__top{
+       height: 700px;
+    }
     .about-cmp__pct{
         display: none;
     }

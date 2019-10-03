@@ -18,11 +18,11 @@
           <div class="loader--face">
             <!-- Loader face smile-->
             <svg class="loader--face--smile" viewBox="25 25 50 50">
-              <circle cx="50" cy="50" r="20" fill="none" stroke="#64FFFE" stroke-width="2"></circle>
+              <circle cx="50" cy="50" r="20" fill="none" stroke="#45fcee" stroke-width="2"></circle>
             </svg>
             <!-- ./Loader face smile-->
             <!-- Loader face eyes-->
-            <div class="loader--face--eyes"><span></span><span></span></div>
+            <div class="loader--face--eyes"><span></span><span></span><span></span><span></span></div>
           </div>
         </div>
       </div>
@@ -152,19 +152,21 @@
                           <div class="header-information">
                             <div class="header-left">
                               <div class="city">
-                                <div class="position-pict"><a class="link-header__logo" href=""><img class="city-logo" src="static/img/header-first.png" alt=""/></a></div>
+                                <div class="position-pict"><img class="city-logo" src="static/img/header-first.png" alt=""/></div>
                                 <p class="header-text">г. Челябинск, ул. Краснопольский проспект 1/2</p>
                               </div>
                               <div class="timetable">
-                                <div class="position-pict"><a class="link-header__logo" href=""><img class="time-logo" src="static/img/header-second.png" alt=""/></a></div>
+                                <div class="position-pict"><img class="time-logo" src="static/img/header-second.png" alt=""/></div>
                                 <p class="header-text">График работы: с 9:00 до 20:00</p>
                               </div>
                             </div>
                             <div class="header-right">
                               <div class="call">
-                                <div class="position-pict"><a class="link-header__logo" href=""><img class="call-logo" src="static/img/header-third.png" alt=""/></a></div>
-                                <p class="mobile">+7 (922) 744-20-10 </p>
-                                <div class="order-call"><a class="call-phone" href="">Заказать звонок</a></div>
+                                <div class="position-pict"><img class="call-logo" src="static/img/header-third.png" alt=""/></div><a class="link-tel" href="tel: +79227442010"> 
+                                  <p class="mobile">+7 (922) 744-20-10 </p></a>
+                                <div class="order-call">
+                                  <h2 class="call-phone">Заказать звонок</h2>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -179,17 +181,7 @@
                           <div class="menu-burger"><a class="touch-menu" href="#"><span class="line"></span></a></div>
                           <nav>
                             <ul class="menu">
-                              <div class="menu-horizontal">
-                                <ul class="menu-horizontal__menu">
-                                  <li class="service-header"> <a class="header-menu" href="">Наши услуги</a>
-                                    <ul class="menu-down">
-                                      <li class="menu-down__li"><a class="menu-down___link" href="#">Услуга 1</a></li>
-                                      <li class="menu-down__li"><a class="menu-down___link" href="#">Услуга 2</a></li>
-                                      <li class="menu-down__li"><a class="menu-down___link" href="#">Услуга 3</a></li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </div>
+                              <li class="service-header"> <a class="header-menu" href="">Наши услуги</a></li>
                               <li class="works-header"><a class="header-menu" href="">Наши работы</a></li>
                               <li class="about-company__header"><a class="header-menu" href="">О компании</a></li>
                               <li class="price-list__header"><a class="header-menu" href="">Прайс-лист</a></li>
@@ -200,9 +192,7 @@
                             </ul>
                           </nav>
                           <div class="btn-order"> 
-                            <button class="activate">
-                              <h2 class="order-serv" href="">ЗАКАЗАТЬ УСЛУГУ</h2>
-                            </button>
+                            <button class="order-serv"><span class="activate">ЗАКАЗАТЬ УСЛУГУ</span></button>
                           </div>
                         </div>
                       </div>
@@ -299,7 +289,9 @@
                               </div>
                             </div>
                           </div>
-                          <div class="about-service__pct"><img class="red-car" src="static/img/red-car.png" alt=""/></div>
+                          <div class="about-service__pct">
+                            <div class="imgBx"><img class="red-car" src="static/img/red-car/red-car2.png" alt=""/><img class="red-car" src="static/img/red-car/1.png" alt=""/></div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -327,25 +319,25 @@
                       </div>
                     </div>
                     <div class="map">
+                      <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2276.5695597594354!2d61.304559016208366!3d55.20828708041125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c5935c4b270f8f%3A0x8d07cc78811f686!2z0JrRgNCw0YHQvdC-0L_QvtC70YzRgdC60LjQuSDQv9GA0L7RgdC_LiwgMSwg0KfQtdC70Y_QsdC40L3RgdC6LCDQp9C10LvRj9Cx0LjQvdGB0LrQsNGPINC-0LHQuy4sIDQ1NDAxNA!5e0!3m2!1sru!2sru!4v1556044642086!5m2!1sru!2sru" frameborder="0" style="border:0" allowfullscreen=""></iframe>
                       <div class="container">
                         <div class="map-service__position">
                           <ul class="map-info">
                             <li class="map-info-top">
-                              <div class="map-info-position"><a class="map-link" href=""><img class="location" src="static/img/location-map.png" alt=""/></a>
+                              <div class="map-info-position"><img class="location" src="static/img/location-map.png" alt=""/>
                                 <div class="city-info">
                                   <h3 class="city__map">г. Челябинск, ул. Краснопольский проспект 1/2</h3>
                                 </div>
                               </div>
                             </li>
                             <li class="map-info-middle">
-                              <div class="map-info-position"><a class="map-link" href=""><img class="phone" src="static/img/phone-map.png" alt=""/></a>
-                                <div class="call-number">
-                                  <h3 class="number__map">+7 (922) 744-20-10</h3>
-                                </div>
+                              <div class="map-info-position"><img class="phone" src="static/img/phone-map.png" alt=""/>
+                                <div class="call-number"><a class="link-tel" href="tel: +79227442010">
+                                    <h3 class="number__map">+7 (922) 744-20-10</h3></a></div>
                               </div>
                             </li>
                             <li class="map-info-bottom">
-                              <div class="map-info-position"><a class="map-link" href=""><img class="clock" src="static/img/clock-map.png" alt=""/></a>
+                              <div class="map-info-position"><img class="clock" src="static/img/clock-map.png" alt=""/>
                                 <div class="timetable-works">
                                   <h3 class="working-time__map">График работы: с 9:00 до 20:00</h3>
                                 </div>
@@ -360,7 +352,7 @@
                         <div class="footer-content__position">
                           <div class="footer-content">
                             <div class="footer-top">
-                              <div class="right-wheel__size"> <a href="#">
+                              <div class="right-wheel__size"> <a href="https://vibirai.ru/avto/right_wheels_remont_shin_i_diskov-711341">
                                   <div class="joha">RIGHT WHEELS</div></a></div>
                               <div class="burger-footer"><a class="touch-foot" href="#"><span class="line"></span></a></div>
                               <div class="menu-color">
@@ -384,20 +376,21 @@
                                   <div class="right-wheel__size-middle"><a class="wheel" href=""><img class="right-wheel__middle" src="static/img/rectangle-wheel.png" alt=""/></a></div>
                                   <div class="map-separate">
                                     <li class="map-info-top__footer">
-                                      <div class="position-pict__footer"><a class="map-link" href=""><img class="phone-footer" src="static/img/phone-map.png" alt=""/></a></div>
-                                      <div class="call-number">
-                                        <h3 class="number__footer">+7 (922) 744-20-10</h3>
+                                      <div class="position-pict__footer"><img class="phone-footer" src="static/img/phone-map.png" alt=""/></div>
+                                      <div class="call-number"><a class="link-tel" href="tel: +79227442010">
+                                          <h3 class="number__footer">+7 (922) 744-20-10</h3></a></div>
+                                      <div class="order-call__footer">
+                                        <h2 class="call-phone" href="">Заказать звонок</h2>
                                       </div>
-                                      <div class="order-call__footer"><a class="call-phone" href="">Заказать звонок</a></div>
                                     </li>
                                     <li class="map-info-middle__footer">
-                                      <div class="position-pict__footer"><a class="map-link" href=""><img class="location-footer" src="static/img/location-map.png" alt=""/></a></div>
+                                      <div class="position-pict__footer"><img class="location-footer" src="static/img/location-map.png" alt=""/></div>
                                       <div class="city-info">
                                         <h3 class="city__footer">г. Челябинск, ул. Краснопольский проспект 1/2</h3>
                                       </div>
                                     </li>
                                     <li class="map-info-bottom__footer">
-                                      <div class="position-pict__footer"><a class="map-link" href=""><img class="clock-footer" src="static/img/clock-map.png" alt=""/></a></div>
+                                      <div class="position-pict__footer"><img class="clock-footer" src="static/img/clock-map.png" alt=""/></div>
                                       <div class="timetable-works">
                                         <h3 class="works-time__footer">График работы: с 9:00 до 20:00</h3>
                                       </div>
@@ -407,11 +400,12 @@
                               </ul>
                             </div>
                             <div class="footer-bottom">
-                              <div class="footer-bottom__autoservice"><a href="#">
-                                  <h3 class="auto">© Автосервис, 2018</h3></a></div>
-                              <div class="footer-bottom__create"><a href="#">
+                              <div class="footer-bottom__autoservice">
+                                <h3 class="auto">© Автосервис, 2018</h3>
+                              </div>
+                              <div class="footer-bottom__create"><a href="https://reactive-promotion.ru/">
                                   <h3 class="create-site">Создание и продвижение сайта</h3></a>
-                                <div class="logo-promotion__position"><a class="prom" href=""><img class="logo-promotion" src="static/img/footer-bottom__promotion.png" alt=""/></a></div>
+                                <div class="logo-promotion__position"><a class="prom" href="https://reactive-promotion.ru/"><img class="logo-promotion" src="static/img/footer-bottom__promotion.png" alt=""/></a></div>
                               </div>
                             </div>
                           </div>

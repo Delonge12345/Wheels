@@ -1,4 +1,4 @@
-let linkService = document.querySelector('.activate'),
+let linkService = document.querySelector('.btn-order '),
     closePopupService = document.querySelector('.close-popup__service'),
     overlayService	= document.querySelector('.overlay-service'),
     overflowService = document.createElement('div'),
@@ -28,6 +28,12 @@ let CloseWindowService =()=>{
     
 }
 closePopupService.addEventListener('click',CloseWindowService);
+
+
+
+
+
+
 
 
 document.addEventListener('mousedown', function(e){

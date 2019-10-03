@@ -4,9 +4,13 @@
 
 
 ul.wheels-bg__pos-works{
+    min-width: 100%;
     display: flex;
-    
+    flex-wrap: wrap;
+   
 }
+    
+
 .wheels-bg__works-pos{
     display: flex;
 }
@@ -15,7 +19,7 @@ li.first-wheel__works,li.second-wheel__works,li.third-wheel__works,li.fourth-whe
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 293px;
+    width: 290px;
     height: 250px;
 }
 
@@ -24,6 +28,3 @@ img.st-works{
     height: 228px;
 }
 
-.fst-wheels__composit,.snd-wheels__composit{
-    display:flex;
-}

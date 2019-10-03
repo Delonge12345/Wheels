@@ -2,40 +2,62 @@
     .container{
         width: 970px;
     }
+  
 
-    thead.edition{
-        display: none;
+
+    .moto-wheels__middle-table,.price-editing__table,.price-fitting__table,.price-additive__table{
+        overflow-x: scroll;
+       
+        font-size: 16px;
     }
 
-    table.editing-discs td {
-        position: relative;
-    }
 
-    table.editing-discs td:before{
-        content:attr(data-edit);
-        position: absolute;
-        left: 10%;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // thead.edition{
+    //     display: none;
+    // }
+
+    // table.editing-discs td {
+    //     position: relative;
+    // }
+
+    // table.editing-discs td:before{
+    //     content:attr(data-edit);
+    //     position: absolute;
+    //     left: 10%;
+    // }
    
-    table.editing-discs td{
-        display: block;
-        padding-left: 50%;
-    }
+    // table.editing-discs td{
+    //     display: block;
+    //     padding-left: 50%;
+    // }
     
-    table.editing-discs {
+    // table.editing-discs {
         
-        font-size: 18px;
+    //     // font-size: 18px;
         
-    }
+    // }
     
-    table.editing-discs tr td {
-        border: 1px solid #000;
-       text-align: center;
-    }
-    .price-editing__table {
-        height: 400px;
+    // table.editing-discs tr td {
+    //     border: 1px solid #000;
+    //    text-align: center;
+    // }
+    // .price-editing__table {
+    //     height: 400px;
         
-    }
+    // }
     
 }
 
@@ -45,75 +67,76 @@
     .container{
         width: 750px;
     }
-    thead{
-        display: none;
-    }
 
-    table.tire-fitting td {
-        position: relative;
-    }
+    // thead{
+    //     display: none;
+    // }
 
-    table.tire-fitting td:before{
-        content:attr(data-label);
-        position: absolute;
-        left: 10%;
-    }
-    .moto-wheels__middle-table{
-        height: 1000px;
-    }
-    table.tire-fitting td{
-        display: block;
-        padding-left: 50%;
-    }
-    .price-fitting__table {
-        height: 2900px;
+    // table.tire-fitting td {
+    //     position: relative;
+    // }
+
+    // table.tire-fitting td:before{
+    //     content:attr(data-label);
+    //     position: absolute;
+    //     left: 10%;
+    // }
+    // .moto-wheels__middle-table{
+    //     height: 900px;
+    // }
+    // table.tire-fitting td{
+    //     display: block;
+    //     padding-left: 50%;
+    // }
+    // .price-fitting__table {
+    //     height: 2900px;
         
-    }
-    table.tire-fitting {
+    // }
+    // table.tire-fitting {
         
-        font-size: 18px;
+    //     // font-size: 18px;
         
-    }
-    .fit__left{
-        text-align: center;
-    }
-    table.tire-fitting tr td {
-        border: 1px solid #000;
+    // }
+    // .fit__left{
+    //     text-align: center;
+    // }
+    // table.tire-fitting tr td {
+    //     border: 1px solid #000;
        
-    }
-    thead.edition{
-        display: none;
-    }
+    // }
+    // thead.edition{
+    //     display: none;
+    // }
 
-    table.editing-discs td {
-        position: relative;
-    }
+    // table.editing-discs td {
+    //     position: relative;
+    // }
 
-    table.editing-discs td:before{
-        content:attr(data-edit);
-        position: absolute;
-        left: 10%;
-    }
+    // table.editing-discs td:before{
+    //     content:attr(data-edit);
+    //     position: absolute;
+    //     left: 10%;
+    // }
    
-    table.editing-discs td{
-        display: block;
-        padding-left: 50%;
-    }
+    // table.editing-discs td{
+    //     display: block;
+    //     padding-left: 50%;
+    // }
     
-    table.editing-discs {
+    // table.editing-discs {
         
-        font-size: 18px;
+    //     // font-size: 18px;
         
-    }
+    // }
     
-    table.editing-discs tr td {
-        border: 1px solid #000;
-       text-align: center;
-    }
-    .price-editing__table {
-        height: 400px;
+    // table.editing-discs tr td {
+    //     border: 1px solid #000;
+    //    text-align: center;
+    // }
+    // .price-editing__table {
+    //     height: 400px;
         
-    }
+    // }
 
 
 
@@ -124,96 +147,105 @@
     .container{
         width: 480px;
     }
-    thead.fitting{
-        display: none;
-    }
+    // thead.fitting{
+    //     display: none;
+    // }
 
-    table.tire-fitting td {
-        position: relative;
-    }
+    // table.tire-fitting td {
+    //     position: relative;
+    // }
 
-    table.tire-fitting td:before{
-        content:attr(data-label);
-        position: absolute;
-        left: 10%;
-    }
-    table.moto-wheels__price-top {
+    // table.tire-fitting td:before{
+    //     content:attr(data-label);
+    //     position: absolute;
+    //     left: 10%;
+    // }
+    // table.moto-wheels__price-top {
        
-        font-size: 15px;
+    //     // font-size: 15px;
         
-    }
+    // }
     
-    .moto-wheels__middle-table{
-        height: 1000px;
-    }
-    table.tire-fitting td{
-        display: block;
-        padding-left: 50%;
-    }
-    .price-fitting__table {
-        height: 2890px;
+    // // .moto-wheels__middle-table{
+    // //     height: 1000px;
+    // // }
+    // table.tire-fitting td{
+    //     display: block;
+    //     padding-left: 50%;
+    // }
+    // .price-fitting__table {
+    //     height: 2890px;
         
-    }
-    table.tire-fitting {
+    // }
+    // table.tire-fitting {
         
-        font-size: 18px;
+    //     // font-size: 18px;
         
-    }
-    .fit__left{
-        text-align: center;
-    }
-    table.tire-fitting tr td {
-        border: 1px solid #000;
+    // }
+    // .fit__left{
+    //     text-align: center;
+    // }
+    // table.tire-fitting tr td {
+    //     border: 1px solid #000;
        
-    }
-    ////////////////////////////
-    thead.edition{
-        display: none;
-    }
+    // }
+    // ////////////////////////////
+    // thead.edition{
+    //     display: none;
+    // }
 
-    table.editing-discs td {
-        position: relative;
-    }
+    // table.editing-discs td {
+    //     position: relative;
+    // }
 
-    table.editing-discs td:before{
-        content:attr(data-edit);
-        position: absolute;
-        left: 10%;
-    }
+    // table.editing-discs td:before{
+    //     content:attr(data-edit);
+    //     position: absolute;
+    //     left: 10%;
+    // }
    
-    table.editing-discs td{
-        display: block;
-        padding-left: 50%;
-    }
+    // table.editing-discs td{
+    //     display: block;
+    //     padding-left: 50%;
+    // }
     
-    table.editing-discs {
+    // table.editing-discs {
         
-        font-size: 18px;
+    //     // font-size: 18px;
         
-    }
+    // }
     
-    table.editing-discs tr td {
-        border: 1px solid #000;
-       text-align: center;
-    }
-    .price-editing__table {
-        height: 400px;
+    // table.editing-discs tr td {
+    //     border: 1px solid #000;
+    //    text-align: center;
+    // }
+    // .price-editing__table {
+    //     height: 400px;
         
-    }
+    // }
 
-    ////////////////
-    h3.bold-add {
+    // ////////////////
+    // h3.bold-add {
        
-        width: 100%;
-    }
+    //     width: 100%;
+    // }
+
+   
+    
     
 }
 
 @media screen and (max-width: 480px){ //phones
     .container{
         width: 95%;
-    }
-    
+    // }
+    // .moto-wheels__middle-table{
+    //     height: 1100px;
+    // }
+    // // // table.moto-wheels__price-top{
+    // //     font-size: 12px;
+    // }
+
     
     
 }   
@@ -222,32 +254,33 @@
     .container{
         width: 95%;
     }
-    .moto-wheels__middle-table {
-        height: 790px;
-    }
+    // .moto-wheels__middle-table {
+    //     height: 790px;
+    // }
 
-    table.moto-wheels__price-top {
+    // table.moto-wheels__price-top {
        
-        font-size: 10px!important;
+    //     // font-size: 10px!important;
        
-    }
-    table.tire-fitting {
-        font-size: 10px;
-    }
-    .price-fitting__table {
-        height: 2000px;
-    }
-    table.editing-discs {
-        font-size: 10px;
-    }
-    .price-editing__table {
-        height: 325px;
-    }
-    .td-add__position-price{
-        align-items: center;
-    }
-    .bold-add,.add-price{
-        font-size: 11px!important;
-    }
+    // }
+    // table.tire-fitting {
+    //     // font-size: 10px;
+    // }
+    // .price-fitting__table {
+    //     height: 2000px;
+    // }
+    // table.editing-discs {
+    //     // font-size: 10px;
+    // }
+    // .price-editing__table {
+    //     height: 325px;
+    // }
+    // .td-add__position-price{
+    //     align-items: center;
+    // }
+    // .bold-add,.add-price{
+    //     // font-size: 11px!important;
+    // }
 }
 
+}

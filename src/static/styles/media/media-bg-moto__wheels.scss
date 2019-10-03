@@ -16,7 +16,12 @@
         right: -50px;
        
     }
+    .moto-wheels__middle{
+        height: 1160px;
+    }
+    
 }
+
 
 
 
@@ -50,11 +55,11 @@
     .moto-wheels__top-left{
         width: 493px;
     }
-
+   
 
     .moto-pct__position {
-        width: 750px;
-        height: 500px;
+        width: 500px;
+        height: 400px;
     }
 
 
@@ -82,7 +87,7 @@
     }
     .moto-pct__position {
         width: 480px;
-        height: 400px;
+        height: 480px;
     }
 
 
@@ -144,13 +149,13 @@ ul.moto-wheels{
 
     .moto-pct__position {
         width: 95%;
-        height: 350px;
+        height: 250px;
     }
     .moto-wheels__bottom {
-        height: 500px;
+        height: 380px;
     }
     .moto-wheels__middle{
-        height: 1070px;
+        min-height: 900px;
     }
 
     @media screen and (max-width: 320px){ //phones Iphone 5
@@ -171,11 +176,11 @@ ul.moto-wheels{
         caption{
             height: 80px!important;
         }
-        .moto-wheels__price-top{
-            font-size: 12px!important;
-        }
+        // .moto-wheels__price-top{
+        //     font-size: 12px!important;
+        // }
         .moto-wheels__middle{
-            height: 900px;
+            min-height:700px;
         }
         ul.moto-serv__top{
             height: 230px;

@@ -1,16 +1,13 @@
 .overlay-form
         .pop-up__service-form
-            h2.review ЧТОБЫ ЗАКАЗАТЬ УСЛУГУ:
+            h2.review ЧТОБЫ ЗАКАЗАТЬ ЗВОНОК:
             form.postcard(action='')
               .form-row
                 label(for='name') Ваше имя
                 input#name(type='text', required='')
               .form-row
-                label(for='email') Ваш Email
-                input#email(type='email', required='')
-              .form-row
-                label(for='message') Ваше сообщение
-                textarea#message(rows='5', required='')
+                label(for='tel') Ваш телефон
+                input#phone(type='tel', required='')
               .form-row
                 input(type='submit', value='Отправить сообщение')
            

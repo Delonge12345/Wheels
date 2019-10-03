@@ -4,11 +4,17 @@
     }
 
     .actions-container {
-        height: 1400px;
+        height: 2600px;
     }
-    .actions-ul{
-        flex-direction: column;
+    ul.actions-ul{
+        justify-content: center;
         align-items:center;
+    }
+    .acions-ul__content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 }
 
@@ -19,6 +25,9 @@
         width: 750px;
     }
     
+    .actions-ul{
+        justify-content: center!important;
+    }
     
     
 }

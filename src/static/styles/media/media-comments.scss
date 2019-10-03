@@ -4,9 +4,9 @@
     }
 
     ul.pos-comments {
-        flex-direction: column;
+        
         display: flex;
-        align-items: center;
+        justify-content: center;
     }
     
 }
@@ -44,7 +44,7 @@
         
     }
     .zero-one__container{
-        height: 1050px;
+        height: 1500px;
     }
     img.cmnt-pct {
         width: 100%;
@@ -54,7 +54,7 @@
         height: 600px;
     }
     .about-service__content {
-        height: 825px;
+        height: 1150px;
     }
     .about-service__pct{
         display: flex;
@@ -71,7 +71,7 @@
         }
 
         .zero-one__container{
-            height: 1920px;
+            height: 1500px;
         }
     }
     @media screen and (max-width: 320px){ //phones Iphone 5
@@ -84,8 +84,6 @@
         .cmnt-pct{
             height: 170px!important;
         }
-        .about-service__content {
-            height: 910px;
-        }
+       
     }
 }   

@@ -1,10 +1,11 @@
-let linkServiceForm = document.querySelector('.activate-form');
+let linkServiceForm = document.querySelector('.order-call');
+    linkServiceFoot = document.querySelector('.order-call__footer');
     linkServiceFormServ = document.querySelector('.activate-form__service');
     closePopupServiceForm = document.querySelector('.close-popup__service-form');
     overlayServiceForm	= document.querySelector('.overlay-form');
     overflowServiceForm = document.createElement('div');
     fixOrderForm = document.querySelector('.fix-order__form');
-    
+  
 
 
 //////////////////////////////////////////////////ServiceForm
@@ -19,7 +20,7 @@ let OpenWindowServiceForm =()=>{
     }
    
 linkServiceForm.addEventListener('click',OpenWindowServiceForm);
-
+linkServiceFoot.addEventListener('click',OpenWindowServiceForm);
 
 
 

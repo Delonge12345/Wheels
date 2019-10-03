@@ -12,7 +12,7 @@ html(lang='en')
     block title
        
   body
-    //- include ../sections/preloader
+    include ../sections/preloader
     include ../sections/popups/index/popup-service
     include ../sections/popups/index/popup-service__form
     include ../sections/popups/index/popup-addition__form
@@ -51,7 +51,11 @@ html(lang='en')
                         .service-text
                             h3.zero-three__service  ПРОМО-ВИДЕО КОМПАНИИ
                     .service-zero__three-video
-                        img.company-video(src="static/img/map.png", alt="")
+                        .service-zero__three-video
+                            .homepage-hero-module
+                                .video-container
+                                    .filter
+                                    video.fillWidth(autoplay='', loop='', muted='', playsinline='', src='static/video/Driving-a-Mercedes.mp4')
         include ../sections/sections-zero/section-zero__two
         .container
             .zero-one__container
@@ -71,7 +75,7 @@ html(lang='en')
                       a.st-link(href="")
                        img.st(src="static/img/service-wheel-2.png", alt="") 
                       a.style(href="") Правка и ремонт дисков
-                  ul.wheels
+                  
                     li.third-wheel
                       a.st-link(href="")
                        img.st(src="static/img/service-wheel-3.png", alt="")

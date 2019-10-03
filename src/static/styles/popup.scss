@@ -1,4 +1,5 @@
-.overlay,.overlay-act__one,.overlay-act__two,.overlay-act__three,.overlay-act__four,.overlay-service,.overlay-form,.overlay-addition{
+
+.overlay,.overlay-act__one,.overlay-act__two,.overlay-act__three,.overlay-act__four,.overlay-service,.overlay-form,.overlay-addition,.overlay-form__disc{
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -9,9 +10,9 @@
     
 }
 
-.pop-up,.pop-up__one,.pop-up__two,.pop-up__three,.pop-up__four,.pop-up__service,.pop-up__service-form,.pop-up__service-addition{
+.pop-up,.pop-up__one,.pop-up__two,.pop-up__three,.pop-up__four,.pop-up__service,.pop-up__service-form,.pop-up__service-addition,.pop-up__service-form__disc{
     position: absolute;
-    width: 400px;
+    width: 300px;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -55,7 +56,7 @@
 
 
 
-.close-popup,.close-popup__one,.close-popup__two,.close-popup__three,.close-popup__four,.close-popup__service,.close-popup__service-form,.close-popup__service-addition{
+.close-popup,.close-popup__one,.close-popup__two,.close-popup__three,.close-popup__four,.close-popup__service,.close-popup__service-form,.close-popup__service-addition,.close-popup__service-form__disc{
     position: absolute;
     top:15px;
     right: 15px;
@@ -249,8 +250,30 @@
     left: -4px;
 }
 
+//////////////////////////////////////////////////////////////////////////////////////////////
+.close-popup__service-form__disc::before{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    height: 1px;
+    width: 31px;
+    top: 11px;
+    left: -4px;
+    transform: rotate(-45deg);
+}
+
+.close-popup__service-form__disc::after{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    height: 1px;
+    width: 31px;
+    top: 11px;
+    transform: rotate(45deg);
+    left: -4px;
+}
 ///////////////////////////////////////////////////////////////////////////////////////////////
-.overlay-diag,.overlay-addition,.overlay-form,.overlay-service{
+.overlay-diag,.overlay-addition,.overlay-form,.overlay-service,.overlay-form__disc{
     z-index: 1;
     position: absolute;
     width: 100%;
@@ -264,7 +287,7 @@
 
 h2.review{
     font-size: 20px;
-    width: 70%;
+    width: 100%;
     font-family: 'PT Sans', sans-serif;
     color: #fff;
     
@@ -273,10 +296,11 @@ h2.review{
 
 .form-row {margin-bottom: 15px;}
 .form-row input[type="text"], 
-.form-row input[type="email"], 
+.form-row input[type="email"],
+.form-row input[type="tel"], 
 .form-row textarea {
   width: 100%;
-  padding: 0 10px;
+  padding: 10px 10px;
 
   border-width: 0;
   outline: none;
@@ -292,6 +316,7 @@ h2.review{
   resize: none;
 }
 .form-row input[type="submit"] {
+  width: 100%;
   padding: 10px 20px;
   margin-top: 10px;
   background: #fff;
@@ -302,22 +327,21 @@ h2.review{
   font-size: 13px;
   letter-spacing: 1px;
   color: #222;
-  text-transform: uppercase;
+//   text-transform: uppercase;
   transition: 1s cubic-bezier(.165, .84, .44, 1);
 }
 .form-row input[type=submit]:hover {background: #fff;}
 
 
-
-.pop-up__service-addition,.pop-up__service-form,.pop-up__diag,.pop-up__service{
+.pop-up__service-addition,.pop-up__service-form,.pop-up__diag,.pop-up__service,.pop-up__service-form__disc{
     position: absolute;
-    height: 430px;
-    width: 265px;
+    // height: 430px;
+    // width: 265px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-     max-width: 350px;
+    max-width: 270px;
     padding: 20px;
     background: #510C0C;
     background: -webkit-linear-gradient(top left, #510C0C, #F7F6F6);

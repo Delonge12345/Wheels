@@ -9,6 +9,7 @@ module.exports = function() {
         includes.gulp.watch('src/static/js/popup-diag.js',includes.gulp.series('scripts'));
         includes.gulp.watch('src/static/js/popup-service.js',includes.gulp.series('scripts'));
         includes.gulp.watch('src/static/js/popup-form.js',includes.gulp.series('scripts'));
+        includes.gulp.watch('src/static/js/popup-disc.js',includes.gulp.series('scripts'));
         includes.gulp.watch('src/static/js/popup-addition__form.js',includes.gulp.series('scripts'));
         includes.gulp.watch('src/static/js/navigation.js',includes.gulp.series('scripts'));
         includes.gulp.watch('src/static/js/footer-navigation.js',includes.gulp.series('scripts'));
@@ -18,6 +19,7 @@ module.exports = function() {
         includes.gulp.watch('src/static/js/preloader.js',includes.gulp.series('scripts'));
         includes.gulp.watch('src/static/js/particles.min.js',includes.gulp.series('scripts'));
         includes.gulp.watch('src/static/js/red-car__switch.js',includes.gulp.series('scripts'));
+        includes.gulp.watch('src/static/js/video.js',includes.gulp.series('scripts'));
       
         
     });

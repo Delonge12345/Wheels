@@ -12,7 +12,7 @@ html(lang='en')
     block title
        
   body
-    //- include ../sections/preloader
+    include ../sections/preloader
     include ../sections/popups/index/popup-act
     include ../sections/popups/index/popup-service
     include ../sections/popups/index/popup-service__form
@@ -81,7 +81,7 @@ html(lang='en')
                           a.st-link(href="")
                             img.st(src="static/img/service-wheel-2.png", alt="") 
                           a.style(href="") Правка и ремонт дисков
-                      ul.wheels
+                      
                         li.third-wheel
                           a.st-link(href="")
                             img.st(src="static/img/service-wheel-3.png", alt="")
@@ -91,54 +91,47 @@ html(lang='en')
                             img.st(src="static/img/service-wheel-4.png", alt="")
                           a.style(href="") Дополнительные услуги
                     
-                  
+              .container    
                       
-              .zero-two__container
-                .service-zero__two-left
-                  img.repair(src="static/img/service-repairing.png", alt="")
-                .setvice-zero__two-right
-                  .service-zero__two-cap
-                    h3.zero-two__text 0
-                    h3.zero-two__text-mid 2
-                    .service-text
-                      h3.zero-two__service ПРЕИМУЩЕСТВА
-                  ul.benefits-one
-                    li.benefit-first 
-                      .bn-position 
-                        img.bn(src="static/img/hexagon.png", alt="")
-                      .benefit-text
-                        h3.benefit Большой опыт работы
-                        p.benefit-text Опыт работы более 5 лет.
-                    li.benefit-first 
-                      .bn-position 
-                        img.bn(src="static/img/hexagon.png", alt="")
-                      .benefit-text
-                        h3.benefit Шиномонтажные услуги
-                        p.benefit-text Все работы выполняются в одном месте.
-        
-                  ul.benefits-two
-                      li.benefit-second
-                        .bn-position  
-                          img.bn(src="static/img/hexagon.png", alt="")
-                        .benefit-text
-                          h3.benefit Шиномонтажные услуги
-                          p.benefit-text Гарантии на все услуги.
-                      li.benefit-second
-                        .bn-position  
-                          img.bn(src="static/img/hexagon.png", alt="")
-                        .benefit-text
-                          h3.benefit Большой опыт работы
-                          p.benefit-text Любая форма оплаты: наличными, безнал, расчетный счет.
+                  .zero-two__container
+                    .service-zero__two-left
+                      img.repair(src="static/img/service-repairing.png", alt="")
+                    .setvice-zero__two-right
+                      .service-zero__two-cap
+                        h3.zero-two__text 0
+                        h3.zero-two__text-mid 2
+                        .service-text
+                          h3.zero-two__service ПРЕИМУЩЕСТВА
+                      ul.benefits-one
+                        li.benefit-first 
+                          .bn-position 
+                            img.bn(src="static/img/hexagon.png", alt="")
+                          .benefit-text
+                            h3.benefit Большой опыт работы
+                            p.benefit-text Опыт работы более 5 лет.
+                        li.benefit-first 
+                          .bn-position 
+                            img.bn(src="static/img/hexagon.png", alt="")
+                          .benefit-text
+                            h3.benefit Шиномонтажные услуги
+                            p.benefit-text Все работы выполняются в одном месте.
+            
+                    
+                        li.benefit-second
+                            .bn-position  
+                              img.bn(src="static/img/hexagon.png", alt="")
+                            .benefit-text
+                              h3.benefit Шиномонтажные услуги
+                              p.benefit-text Гарантии на все услуги.
+                        li.benefit-second
+                            .bn-position  
+                              img.bn(src="static/img/hexagon.png", alt="")
+                            .benefit-text
+                              h3.benefit Большой опыт работы
+                              p.benefit-text Любая форма оплаты: наличными, безнал, расчетный счет.
               .parallax-second
                .container
-                .zero-three__container
-                  .service-zero__three-cap
-                    h3.zero-three__text 0
-                    h3.zero-three__text-mid 3
-                    .service-text
-                      h3.zero-three__service  ПРОМО-ВИДЕО КОМПАНИИ
-                  .service-zero__three-video
-                    img.company-video(src="static/img/map.png", alt="")
+                include ../sections/video
 
               .zero-four__container
                 .service-zero__main
@@ -217,13 +210,160 @@ html(lang='en')
                       .zero-four__partners
                         ul.zero-four__block
                           li.zero-four__section
+                              .shadow
+                                .slide-show
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/bolid.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/f1.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/bolid.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/f1.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/bolid.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/f1.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/bolid.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/f1.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/bolid.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/f1.png", alt="")
+                                
+                                  
                           li.zero-four__section
+                              .shadow
+                                .slide-show
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  
+          
                           li.zero-four__section
-                        .ul-zero__four-hidden
-                          ul.zero-four__block
-                            li.zero-four__section
-                            li.zero-four__section
-                            li.zero-four__section
+                              .shadow
+                                .slide-show
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/mcl.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/mers.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/mcl.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/mers.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/mcl.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/mers.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/mcl.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/mers.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/mcl.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/mers.png", alt="")
+                                  
+                                  
+                          li.zero-four__section
+                              .shadow
+                                .slide-show
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/redb.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/super.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/redb.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/super.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/redb.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/super.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/redb.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/super.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/redb.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/super.png", alt="")
+                                  
+                                 
+                                  
+                          li.zero-four__section
+                              .shadow
+                                .slide-show
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  
+                               
+                                 
+                          li.zero-four__section
+                              .shadow
+                                .slide-show
+                                  .slide-part
+                                     img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/ferr.png", alt="")
+                                  .slide-part
+                                    img.part-img(src="static/img/icons-partners/honda.png", alt="")
+                                  
+                                 
+                               
+              
+                                    
               .container
                 .zero-four__questions
                   .zero-four__questions-info
@@ -231,46 +371,27 @@ html(lang='en')
                     p.questions-text  Оставьте заявку и мы свяжемся с вами в течение 30 минут
                   .zero-four__form
                     
-                      ul.form-content
-                        li
-                          input.form-cnt(type='text', placeholder='Ваше имя')
-                                                 
-                        li
-                          input.form-cnt(type='text', placeholder='Ваш номер телефона')
-                                                 
-                        .btn-order__form 
-                          button.activate-form
-                                h2.order-serv ЗАКАЗАТЬ УСЛУГУ
-                            
-                            
-              
-              .map
-                .container
-                  .map-service__position
-                      ul.map-info
-                        li.map-info-top
-                          .map-info-position
-                            a.map-link(href="")
-                              img.location(src="static/img/location-map.png", alt="")
-                            .city-info
-                                h3.city__map г. Челябинск, ул. Краснопольский проспект 1/2
-                        li.map-info-middle
-                          .map-info-position
-                            a.map-link(href="")
-                              img.phone(src="static/img/phone-map.png", alt="")
-                            .call-number
-                              h3.number__map +7 (922) 744-20-10
-                        li.map-info-bottom
-                          .map-info-position
-                            a.map-link(href="")
-                              img.clock(src="static/img/clock-map.png", alt="")
-                            .timetable-works
-                              h3.working-time__map График работы: с 9:00 до 20:00
+                      form.form-content
+                        .form-row_cnt
+                          
+                          input.form-cnt(type='text', required='Ваше имя')
+                        .form-row_cnt
                     
-              include ../sections/footer
-                      
+                          input.form-cnt(type='phone', required='Ваш телефон')
+                        .form-row_cnt
+                          input.activate-form(type='submit', value='ЗАКАЗАТЬ УСЛУГУ')
+                                                 
+                        //- .btn-order__form 
+                        //-   button.activate-form
+                        //-         h2.order-serv ЗАКАЗАТЬ УСЛУГУ
+                            
+                            
               
-      <script src='static/js/libs.min.js'></script>
+              include ../sections/map
+              include ../sections/footer
+            
+      
+      <script src='static/js/libs.min.js'></script>                      
       <script src="static/js/particles.min.js"></script>
       <script src="static/js/slick.js"></script>
       <script src="static/js/popup-index.js"></script>
@@ -278,9 +399,10 @@ html(lang='en')
       <script src="static/js/popup-form.js"></script>
       <script src="static/js/navigation.js"></script>
       <script src="static/js/footer-navigation.js"></script>
-      
+      <script src="static/js/video.js"></script>
       <script src="static/js/preloader.js"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+   
 
 
 

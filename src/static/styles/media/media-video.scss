@@ -1,0 +1,45 @@
+@media screen and (max-width: 1200px){ //desctop
+    .container{
+        width: 970px;
+    }
+    .fillWidth,filter{
+        width: 100%!important;
+        height: 100%!important;
+    }
+  
+    
+}
+
+
+
+@media screen and (max-width: 992px){ //laptop
+    .container{
+        width: 750px;
+    }
+    .fillWidth,filter{
+        width: 100%!important;
+        height: 100%!important;
+    }
+  
+    
+}
+
+@media screen and (max-width: 768px){ //tablets
+    .container{
+        width: 480px;
+    }
+    .fillWidth,filter{
+        width: 100%!important;
+        height: 100%!important;
+    }
+}
+
+@media screen and (max-width: 480px){ //phones
+    .container{
+        width: 95%;
+    }
+    .fillWidth,filter{
+        width: 100%!important;
+        height: 100%!important;
+    }
+}   

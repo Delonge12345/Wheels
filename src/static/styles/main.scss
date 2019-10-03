@@ -9,6 +9,9 @@ a{
     text-decoration: none;
     color: #fff;
 }
+
+
+
 .wrapper {
     min-height: 100%;
     width: 100%;
@@ -56,6 +59,7 @@ header {
 @import 'down-menu.scss';
 @import 'preloader.scss';
 @import 'red-car__switch.scss';
+@import 'video.scss';
 @import 'index/header.scss';
 @import 'index/section-rectangle.scss';
 @import 'index/section-actions';
@@ -86,6 +90,7 @@ header {
 @import 'media-general.scss';
 @import 'media/media-burgers.scss';
 @import 'media/media-slick.scss';
+@import 'media/media-video.scss';
 @import 'media/media.scss';
 
 
